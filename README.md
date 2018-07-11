@@ -1,8 +1,3 @@
 # 数据结构
-- 队列
-- 集合
-- 数组
-- 栈
-- 链表
-- 字典
-- 树
+- 队列 [golang示例](https://github.com/zhaojunHouse/studyGuide/blob/master/queue.go)
+- 链表 [golang示例](https://github.com/zhaojunHouse/studyGuide/blob/master/node.go)
