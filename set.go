@@ -9,7 +9,7 @@ import (
 /**
   集合： 由map实现
   [很多函数需要修改才能使用，只完成了并集操作]
-//todo  map为什么无序     slice为什么有序     锁
+//todo  map为什么无序     slice为什么有序     锁     hashset   哈希表
  */
 
 type Set struct {
