@@ -12,6 +12,7 @@
    * [定义](https://blog.csdn.net/duan19920101/article/details/51579136/)
    * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/hash.go)
 - 栈
+   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/stack.go)
 - 树
 - 图
 - 堆
