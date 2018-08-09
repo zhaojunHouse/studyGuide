@@ -1,0 +1,5 @@
+1.logrotate日志切割
+    https://blog.csdn.net/junli_chen/article/details/77193438
+    http://blog.51cto.com/wn2100/2074048
+
+
