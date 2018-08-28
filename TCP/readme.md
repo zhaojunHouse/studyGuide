@@ -4,4 +4,4 @@
 
 3.《[TCP/IP四层协议理解](https://www.cnblogs.com/onepixel/p/7092302.html)》
 
-4.《[TCP三次握手，四次挥手](https://www.cnblogs.com/onepixel/p/7092302.html)》
+4.《[TCP三次握手，四次挥手](https://www.cnblogs.com/huhuuu/p/3572485.html)》
