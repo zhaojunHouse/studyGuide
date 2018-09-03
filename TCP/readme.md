@@ -7,3 +7,5 @@
 4.《[TCP三次握手，四次挥手](https://www.cnblogs.com/huhuuu/p/3572485.html)》
 
 5.《[TCP客户端服务端，连接断开，示例](https://www.cnblogs.com/huhuuu/p/3572485.html)》
+
+5.《[HTTP协议详解，抓包分析](https://www.cnblogs.com/wangning528/p/6388464.html)》
