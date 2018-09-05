@@ -11,3 +11,5 @@
 6.《[HTTP协议详解，抓包分析](https://www.cnblogs.com/wangning528/p/6388464.html)》
 
 7.《[HTTP2.0原理详解](https://blog.csdn.net/zhuyiquan/article/details/69257126)》
+
+8.《[HTTP2.0二进制帧](https://blog.csdn.net/u012657197/article/details/77877840)》
