@@ -13,3 +13,5 @@
 7.《[HTTP2.0原理详解](https://blog.csdn.net/zhuyiquan/article/details/69257126)》
 
 8.《[HTTP2.0二进制帧](https://blog.csdn.net/u012657197/article/details/77877840)》
+
+9.《[HTTPS原理了解](https://www.cnblogs.com/zhangshitong/p/6478721.html)》，《[一个故事讲完HTTPS](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)》
