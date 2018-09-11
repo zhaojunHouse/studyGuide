@@ -1,4 +1,4 @@
-package main
+package Struct
 
 /**
 	队列 ：先进先出。
