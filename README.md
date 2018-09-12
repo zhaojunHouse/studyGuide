@@ -39,6 +39,10 @@
 - 《[HTTPS原理](https://www.cnblogs.com/zhangshitong/p/6478721.html)》《[一个故事讲清HTTPS](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)》
 
 
+# 数据库
+
+- 《[三大范式五大约束](https://www.cnblogs.com/waj6511988/p/7027127.html)》
+
 
 # 参考文档
 
