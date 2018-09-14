@@ -44,6 +44,12 @@
 - 《[三大范式五大约束](https://www.cnblogs.com/waj6511988/p/7027127.html)》
 
 
+#  并发
+
+- 《[乐观锁](http://www.importnew.com/20472.html)》
+
+
+
 # 参考文档
 
 - logrotate日志切割
