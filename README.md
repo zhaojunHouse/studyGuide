@@ -42,7 +42,7 @@
 # 数据库
 
 - 《[三大范式五大约束](https://www.cnblogs.com/waj6511988/p/7027127.html)》
-
+- 《[数据库事务特性](https://blog.csdn.net/u012440687/article/details/52116108)》
 
 #  并发
 
