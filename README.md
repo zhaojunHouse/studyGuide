@@ -50,6 +50,7 @@
 
 - 《[乐观锁](http://www.importnew.com/20472.html)》
 
+- 《[对mysql乐观锁、悲观锁、共享锁、排它锁、行锁、表锁概念的理解](https://blog.csdn.net/puhaiyang/article/details/72284702)》
 
 
 # 参考文档
