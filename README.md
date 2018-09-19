@@ -47,6 +47,7 @@
 - 《[InnoDB幻读问题](http://blog.sina.com.cn/s/blog_499740cb0100ugs7.html)》
 
 #  并发
+- 《[锁的分类](https://www.cnblogs.com/qifengshi/p/6831055.html)》
 
 - 《[乐观锁](http://www.importnew.com/20472.html)》
 
