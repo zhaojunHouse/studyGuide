@@ -47,6 +47,12 @@
 - 《[InnoDB幻读问题](http://blog.sina.com.cn/s/blog_499740cb0100ugs7.html)》
 
 #  并发
+### 概念
+- 《[为什么会有并发？](https://juejin.im/post/5ae6c3ef6fb9a07ab508ac85)》
+   * 充分利用多核CPU的计算能力
+   * 有些业务比较适合并发执行，提升性能
+   * 缺点：频繁切换上下文；线程安全问题；
+   
 ### 锁
 - 《[锁的分类](https://www.cnblogs.com/qifengshi/p/6831055.html)》
    * 乐观锁&悲观锁，互斥锁/写锁，共享锁/读锁，公平锁/非公平锁，重入锁/非重入锁，分段锁等。
