@@ -82,7 +82,7 @@
    * select for update
    
 - 《[对mysql乐观锁、悲观锁、共享锁、排它锁、行锁、表锁概念的理解](https://blog.csdn.net/puhaiyang/article/details/72284702)》
-
+   * 对于update,insert,delete语句会自动加排它锁,只共享读。
 
 # 参考文档
 
