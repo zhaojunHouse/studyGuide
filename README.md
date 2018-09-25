@@ -85,7 +85,8 @@
    * 对于update,insert,delete语句会自动加排它锁,只共享读。
    
 - 《[select.. for update导致的数据库死锁分析](https://www.cnblogs.com/Lawson/p/5008741.html)》
-   * mysql锁索引，主键索引，非住家索引。导致死锁
+   * mysql的innodb存储引擎实务锁虽然是锁行，但它内部是锁索引的。
+   * 锁相同数据的不同索引条件可能会引起死锁。
 
 
 # 参考文档
