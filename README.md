@@ -77,6 +77,9 @@
 - 《[乐观锁](http://www.importnew.com/20472.html)》
    * 是一种思想，提交更新时对冲突检测，让用户决定重试或是其他。
    * ABA问题，解决方法对每次更新加上版本号
+  
+- 《[悲观锁与乐观锁](http://www.importnew.com/20472.html)》
+   * select for update
    
 - 《[对mysql乐观锁、悲观锁、共享锁、排它锁、行锁、表锁概念的理解](https://blog.csdn.net/puhaiyang/article/details/72284702)》
 
