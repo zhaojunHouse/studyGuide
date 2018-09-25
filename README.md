@@ -83,6 +83,10 @@
    
 - 《[对mysql乐观锁、悲观锁、共享锁、排它锁、行锁、表锁概念的理解](https://blog.csdn.net/puhaiyang/article/details/72284702)》
    * 对于update,insert,delete语句会自动加排它锁,只共享读。
+   
+- 《[select.. for update导致的数据库死锁分析](https://www.cnblogs.com/Lawson/p/5008741.html)》
+   * mysql锁索引，主键索引，非住家索引。导致死锁
+
 
 # 参考文档
 
