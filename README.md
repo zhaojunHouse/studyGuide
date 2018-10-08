@@ -90,6 +90,7 @@
 
 - 《[常见的死锁原因与解决方法](https://www.cnblogs.com/zejin2008/p/5262751.html)》
    
+- 《[mysql加锁分析](http://hedengcheng.com/?p=771)》
 
 
 # 参考文档
