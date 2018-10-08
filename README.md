@@ -90,7 +90,7 @@
 
 - 《[常见的死锁原因与解决方法](https://www.cnblogs.com/zejin2008/p/5262751.html)》
    
-- 《[mysql加锁分析](http://hedengcheng.com/?p=771)》
+- 《[mysql加锁分析](http://hedengcheng.com/?p=771)》  《[聚簇索引与非聚簇索引](http://www.cnblogs.com/tuyile006/archive/2009/08/28/1555615.html)》
 
 
 # 参考文档
