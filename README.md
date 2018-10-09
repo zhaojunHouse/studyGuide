@@ -1,3 +1,11 @@
+#  容器技术
+### docker
+- 《[几张图帮你理解 docker 基本原理及快速入门](https://www.cnblogs.com/SzeCheng/p/6822905.html)》
+   * 镜像，容器。一个镜像可以建立多个容器，一个容器最多127层。
+   
+   
+   
+
 #  并发
 ### 概念
 - 《[为什么需要并发？](https://juejin.im/post/5ae6c3ef6fb9a07ab508ac85)》
