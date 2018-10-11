@@ -1,6 +1,7 @@
 #  Web Server
 #### nginx
 - 《[nginx入门教程](http://tengine.taobao.org/book/chapter_02.html#id13)》
+   * 一个master进程，管理多个worker进程。一个请求只能一个worker进程处理。worker进程抢acceptMutex锁,然后接受请求，处理请求，返回请求，断开连接
 - 《[nginx中文文档](http://www.nginx.cn/doc/)》
 
 
