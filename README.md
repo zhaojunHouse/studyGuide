@@ -6,7 +6,7 @@
    * connection: TCP三次握手
    * request:  请求行、请求头、请求体、响应行、响应头、响应体
    
-   
+- 《[nginx配置](https://www.cnblogs.com/knowledgesea/p/5175711.html)》
    
 - 《[nginx中文文档](http://www.nginx.cn/doc/)》
 
