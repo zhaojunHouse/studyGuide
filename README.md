@@ -12,12 +12,15 @@
    * request:  请求行、请求头、请求体、响应行、响应头、响应体
    
 - 《[nginx配置](https://www.cnblogs.com/knowledgesea/p/5175711.html)》
+   * 负载均衡 [配置文档](https://www.cnblogs.com/andyfengzp/p/6434125.html）
+   * 反向代理和负载均衡 [配置文档](https://www.cnblogs.com/Miss-mickey/p/6734831.html）
+
 
 - 《[nginx正向代理和反向代理](https://www.cnblogs.com/Anker/p/6056540.html)》
    * 正向代理：访问无法访问的服务器；缓存，加速访问；登陆授权；访问日志记录；
    * 反向代理：负载均衡；保证原始服务器安全；
-   * [正向代理和反向代理配置](https://blog.csdn.net/baidu_19473529/article/details/79435069)
-   * [正向代理和反向代理配置示例](https://blog.csdn.net/hiyun9/article/details/51602428)
+   * 正向代理和反向代理 [配置文档](https://blog.csdn.net/baidu_19473529/article/details/79435069)
+   * 正向代理和反向代理 [配置示例](https://blog.csdn.net/hiyun9/article/details/51602428)
    
 - 《[nginx中文文档](http://www.nginx.cn/doc/)》
 
