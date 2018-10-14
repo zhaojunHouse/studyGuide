@@ -5,7 +5,7 @@
 
 #  Web Server
 #### nginx
-- 《[nginx入门教程](http://tengine.taobao.org/book/chapter_02.html#id13)》
+- 《[nginx入门教程](http://tengine.taobao.org/book/chapter_02.html#id13)》《[nginx中文文档](http://www.nginx.cn/doc/)》
    * 进程模型：一个master进程，管理多个worker进程。一个请求只能一个worker进程处理。worker进程抢acceptMutex锁,然后接受请求，处理请求，返回请求，断开连接
    * 事件模型：高并发，异步非阻塞事件机制。epoll，循环处理准备好的事件请求。没有准备好就放回对列。
    * connection: TCP三次握手
@@ -21,8 +21,7 @@
    * 反向代理：负载均衡；保证原始服务器安全；
    * 正向代理和反向代理 [配置文档](https://blog.csdn.net/baidu_19473529/article/details/79435069)
    * 正向代理和反向代理 [配置示例](https://blog.csdn.net/hiyun9/article/details/51602428)
-   
-- 《[nginx中文文档](http://www.nginx.cn/doc/)》
+
 
 
 
