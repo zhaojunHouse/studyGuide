@@ -7,7 +7,7 @@
    * request:  请求行、请求头、请求体、响应行、响应头、响应体
    
 - 《[nginx配置](https://www.cnblogs.com/knowledgesea/p/5175711.html)》
-   
+   * 《[正向代理和反向代理](https://www.cnblogs.com/Anker/p/6056540.html)》
 - 《[nginx中文文档](http://www.nginx.cn/doc/)》
 
 
