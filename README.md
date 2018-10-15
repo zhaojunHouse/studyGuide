@@ -23,6 +23,9 @@
    * 正向代理和反向代理 [配置示例](https://blog.csdn.net/hiyun9/article/details/51602428)
 
 
+- 《[一个HTTP请求过程](https://blog.csdn.net/zhouziyu2011/article/details/60468703)》《[HTTP请求过程](https://blog.csdn.net/qq_37187976/article/details/79167168)》
+   * DNS域名解析；TCP连接；接受请求；处理请求；返回响应；关闭TCP；记录日志；解析HTML展示页面；
+
 
 
 #  容器技术
