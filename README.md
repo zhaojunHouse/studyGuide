@@ -24,7 +24,11 @@
 
 
 #### apache
-- 《[apache原理详解](https://blog.csdn.net/yf3585595511/article/details/54933646)》
+- 《[apache与nginx原理详解及对比](https://blog.csdn.net/yf3585595511/article/details/54933646)》
+   * apache一个子进程处理一个请求。nginx一个子进程通过异步非阻塞事件模型可以处理多个请求，所以并发能力强。
+   * nginx轻量级，占用资源少。反向代理负载均衡。
+   * apache模块丰富
+  
 - 《[apache两种工作模式](https://blog.csdn.net/wangyunzhong123/article/details/77469643)》
    * perfork和worker
 
