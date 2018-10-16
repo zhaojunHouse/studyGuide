@@ -35,6 +35,11 @@
 - 《[Nginx+Apache动静分离](https://www.cnblogs.com/mangood/p/6048720.html)》
    * nginx处理静态请求，apache处理动态请求
 
+#### OpenResty
+- 《[官方网站](http://openresty.org/cn/)》
+- 《[浅谈OpenResty](http://www.linkedkeeper.com/detail/blog.action?bid=1034)》
+
+
 #  安全
 #### 堡垒机（跳板机）
 - 《[搭建简易堡垒机](http://blog.51cto.com/zero01/2062618)》
