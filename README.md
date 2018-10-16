@@ -1,7 +1,3 @@
-#  安全
-#### 堡垒机（跳板机）
-- 《[搭建简易堡垒机](http://blog.51cto.com/zero01/2062618)》
-
 
 #  Web Server
 #### nginx
@@ -25,6 +21,19 @@
 
 - 《[一个HTTP请求过程](https://blog.csdn.net/zhouziyu2011/article/details/60468703)》《[HTTP请求过程](https://blog.csdn.net/qq_37187976/article/details/79167168)》
    * DNS域名解析；TCP连接；接受请求；处理请求；返回响应；关闭TCP；记录日志；解析HTML展示页面；
+
+
+#### apache
+- 《[apache原理详解](https://blog.csdn.net/yf3585595511/article/details/54933646)》
+- 《[apache两种工作模式](https://blog.csdn.net/wangyunzhong123/article/details/77469643)》
+   * perfork和worker
+
+
+
+#  安全
+#### 堡垒机（跳板机）
+- 《[搭建简易堡垒机](http://blog.51cto.com/zero01/2062618)》
+
 
 
 
