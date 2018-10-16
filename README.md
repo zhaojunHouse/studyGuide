@@ -32,7 +32,8 @@
 - 《[apache两种工作模式](https://blog.csdn.net/wangyunzhong123/article/details/77469643)》
    * perfork MPM多个进程，无线程设计，每个进程处理一个请求。worker MPM一个进程下有多个线程。每个线程处理一个请求。
 
-
+- 《[Nginx+Apache动静分离](https://www.cnblogs.com/mangood/p/6048720.html)》
+   * nginx处理静态请求，apache处理动态请求
 
 #  安全
 #### 堡垒机（跳板机）
