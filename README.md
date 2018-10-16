@@ -30,7 +30,7 @@
    * apache模块丰富
   
 - 《[apache两种工作模式](https://blog.csdn.net/wangyunzhong123/article/details/77469643)》
-   * perfork和worker
+   * perfork MPM多个进程，无线程设计，每个进程处理一个请求。worker MPM一个进程下有多个线程。每个线程处理一个请求。
 
 
 
