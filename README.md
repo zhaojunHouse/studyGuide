@@ -38,6 +38,7 @@
 #### OpenResty
 - 《[官方网站](http://openresty.org/cn/)》
 - 《[浅谈OpenResty](http://www.linkedkeeper.com/detail/blog.action?bid=1034)》
+- 《[openResty作者agentzh的Nginx教程](https://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)》
 
 
 #  安全
