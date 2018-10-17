@@ -39,6 +39,7 @@
 - 《[浅谈OpenResty](http://www.linkedkeeper.com/detail/blog.action?bid=1034)》 《[官方网站](http://openresty.org/cn/)》
    *  通过lua模块在nginx上开发。黑名单，防刷，限流等
 - 《[openResty作者agentzh的Nginx教程](https://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)》
+- 《[跟着开涛学openResty](http://jinnianshilongnian.iteye.com/blog/2190344)》
 
 
 #  安全
