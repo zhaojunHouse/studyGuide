@@ -1,7 +1,12 @@
+#  测试
+#### 压力测试
+- 《[apache ab测试使用指南](https://blog.csdn.net/blueheart20/article/details/52170790)》
+
+
 
 #  Web Server
 #### nginx
-- 《[nginx入门教程](http://tengine.taobao.org/book/chapter_02.html#id13)》《[nginx中文文档](http://www.nginx.cn/doc/)》
+- 《[nginx入门教程](http://tengine.taobao.org/book/chapter_02.html)》《[nginx中文文档](http://www.nginx.cn/doc/)》
    * 进程模型：一个master进程，管理多个worker进程。一个请求只能一个worker进程处理。worker进程抢acceptMutex锁,然后接受请求，处理请求，返回请求，断开连接
    * 事件模型：高并发，异步非阻塞事件机制（例如epoll，循环处理准备好的事件请求，IO事件没有准备好就放回epoll)。
    * connection: TCP三次握手
@@ -40,7 +45,7 @@
    *  通过lua模块在nginx上开发。黑名单，防刷，限流等
 - 《[openResty作者agentzh的Nginx教程](https://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)》
 - 《[跟着开涛学openResty](http://jinnianshilongnian.iteye.com/blog/2190344)》
-
+   * TODO 《亿级流量网站》
 
 #  安全
 #### 堡垒机（跳板机）
