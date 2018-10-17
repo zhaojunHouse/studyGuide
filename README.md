@@ -36,8 +36,8 @@
    * nginx处理静态请求，apache处理动态请求
 
 #### OpenResty
-- 《[官方网站](http://openresty.org/cn/)》
-- 《[浅谈OpenResty](http://www.linkedkeeper.com/detail/blog.action?bid=1034)》
+- 《[浅谈OpenResty](http://www.linkedkeeper.com/detail/blog.action?bid=1034)》 《[官方网站](http://openresty.org/cn/)》
+   *  通过lua模块在nginx上开发。黑名单，防刷，限流等
 - 《[openResty作者agentzh的Nginx教程](https://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)》
 
 
