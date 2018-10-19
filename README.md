@@ -1,8 +1,11 @@
 #  测试
 #### 压力测试
 - 《[apache ab测试使用指南](https://blog.csdn.net/blueheart20/article/details/52170790)》
-
-
+   * too many open files (解决方案：ulimit -n; nginx配置events同级 worker_rlimit_nofile 15360;)
+   * apr_socket_recv:Operation timed out  (解决方法：ab加上-k 开启keepAlive)
+   * apr_socket_connect(): Operation already in progress (解决方法：apache/conf/extra/httpd-mpm.conf  修改 ThreadsPerChild)
+   * apr_socket_recv: Connection reset by peer (54)
+   * setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive
 
 #  Web Server
 #### nginx
