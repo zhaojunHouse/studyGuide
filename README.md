@@ -6,6 +6,11 @@
    * apr_socket_connect(): Operation already in progress (解决方法：apache/conf/extra/httpd-mpm.conf  修改 ThreadsPerChild)
    * apr_socket_recv: Connection reset by peer (54)
    * setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive
+ 
+ - 《[大型网站压力测试及优化方案](https://www.cnblogs.com/binyue/p/6141088.html)》
+    * jmeter
+    * 系统性能查看命令
+   
 
 #  Web Server
 #### nginx
