@@ -8,9 +8,9 @@
    * setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive
  
  - 《[大型网站压力测试及优化方案](https://www.cnblogs.com/binyue/p/6141088.html)》
-    * jmeter
+    *  jmeter
     * 《[全链路压测](https://www.jianshu.com/p/27060fd61f72)》
-    * 《[20个命令行工具监控](http://blog.jobbole.com/96846/)》
+    *  资源服务监控《[20个命令行工具监控](http://blog.jobbole.com/96846/)》
    
 
 #  Web Server
