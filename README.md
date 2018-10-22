@@ -9,7 +9,7 @@
  
  - 《[大型网站压力测试及优化方案](https://www.cnblogs.com/binyue/p/6141088.html)》
     * jmeter
-    * 系统性能查看命令
+    * 《[全链路压测](https://www.jianshu.com/p/27060fd61f72)》
    
 
 #  Web Server
