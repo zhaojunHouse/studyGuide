@@ -75,17 +75,6 @@
 #### 堡垒机（跳板机）
 - 《[搭建简易堡垒机](http://blog.51cto.com/zero01/2062618)》
 
-
-
-
-#  容器技术
-#### docker
-- 《[几张图帮你理解 docker 基本原理及快速入门](https://www.cnblogs.com/SzeCheng/p/6822905.html)》
-   * 镜像，容器。一个镜像可以建立多个容器，一个容器最多127层。
-- 《[docker核心技术与实现](https://draveness.me/docker)》
-- 《[docker教程](http://www.runoob.com/docker/docker-tutorial.html)》
-   
-   
    
 
 #  并发
