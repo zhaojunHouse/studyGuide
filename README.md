@@ -1,8 +1,10 @@
 #  架构
 #### 微服务架构
 - 《[微服务架构设计](https://www.cnblogs.com/wintersun/p/6219259.html)》
-   * 网关，API，微服务
+   * API网关，RESTFUL，微服务
 - 《[RESTFUL API架构](https://www.runoob.com/w3cnote/restful-architecture.html)》
+- 《[API网关](https://www.cnblogs.com/savorboard/p/api-gateway.html)》
+
 
 
 #### docker
