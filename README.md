@@ -9,8 +9,8 @@
    * TODO
 #### 日志服务
 - 《[ELKB日志收集系统搭建](http://cjting.me/misc/build-log-system-with-elkb/)》《[ELK日志收集系统搭建](https://blog.csdn.net/lzw_2006/article/details/51280058)》《[日志收集系统](https://www.cnblogs.com/beginmind/p/6058194.html)》
-   * [Filebeat](https://www.cnblogs.com/jingmoxukong/p/8185321.html)
-   * [LogStash]
+   * [Filebeat配置安装](https://www.cnblogs.com/jingmoxukong/p/8185321.html)
+   * [LogStash配置安装](https://www.cnblogs.com/moonlightL/p/7760512.html)
    * [ElasticSearch]
    * [Kibana]
 -  《[FileBeat+kafka进行日志实时传输](https://blog.csdn.net/paicMis/article/details/78888750)》
