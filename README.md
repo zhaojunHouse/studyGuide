@@ -12,7 +12,7 @@
    * [Filebeat配置安装](https://www.cnblogs.com/jingmoxukong/p/8185321.html)
    * [LogStash配置安装](https://www.cnblogs.com/moonlightL/p/7760512.html)
    * [ElasticSearch全文搜索引擎](http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html)
-   * [Kibana]
+   * [Kibana安装](https://www.cnblogs.com/moonlightL/p/7764919.html)
 -  《[FileBeat+kafka进行日志实时传输](https://blog.csdn.net/paicMis/article/details/78888750)》
 
 
