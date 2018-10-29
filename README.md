@@ -14,7 +14,7 @@
    * ElasticSearch全文搜索日志 [ElasticSearch全文搜索引擎](http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html)
    * Kibana是ElasticSearch全文搜索图形化界面 [Kibana安装](https://www.cnblogs.com/moonlightL/p/7764919.html)
 -  《[FileBeat+kafka进行日志实时传输](https://blog.csdn.net/paicMis/article/details/78888750)》
-
+   * kafka[教程](https://www.w3cschool.cn/apache_kafka/apache_kafka_introduction.html)
 
 #### docker
 - 《[几张图帮你理解 docker 基本原理及快速入门](https://www.cnblogs.com/SzeCheng/p/6822905.html)》
