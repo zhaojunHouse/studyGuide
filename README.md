@@ -41,21 +41,21 @@
 -  项目实例
    * TODO
 
-
+----------------------------------------
 
 
 # 网络
 
 #### 网络模型
 TODO
-
+-------------------------------------------
 
 # 安全
 
 #### 堡垒机（跳板机）
 - 《[搭建简易堡垒机](http://blog.51cto.com/zero01/2062618)》
 
-
+------------------
  
 
 # 中间件  
@@ -101,7 +101,7 @@ TODO
 - 《[openResty作者agentzh的Nginx教程](https://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)》
 - 《[跟着开涛学openResty](http://jinnianshilongnian.iteye.com/blog/2190344)》
    * TODO 《亿级流量网站》
-  
+-------------------------  
  
 # 并发
 - 《[为什么需要并发？](https://juejin.im/post/5ae6c3ef6fb9a07ab508ac85)》
@@ -147,7 +147,7 @@ TODO
 - 《[常见的死锁原因与解决方法](https://www.cnblogs.com/zejin2008/p/5262751.html)》《[delete造成的死锁](http://hedengcheng.com/?p=844)》
    
 - 《[mysql加锁分析](http://hedengcheng.com/?p=771)》  《[聚簇索引与非聚簇索引](http://www.cnblogs.com/tuyile006/archive/2009/08/28/1555615.html)》《[MySQL索引原理及慢查询优化](https://tech.meituan.com/mysql_index.html)》
-
+-------------------------------------
 
 # TCP/HTTP
 
@@ -168,7 +168,7 @@ TODO
 - 《[HTTP2.0二进制帧](https://blog.csdn.net/u012657197/article/details/77877840)》
 
 - 《[HTTPS原理](https://www.cnblogs.com/zhangshitong/p/6478721.html)》《[一个故事讲清HTTPS](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)》
-
+------------------
 
 # 数据库
 
@@ -176,7 +176,7 @@ TODO
 - 《[数据库事务特性](https://blog.csdn.net/u012440687/article/details/52116108)》
 - 《[数据库事务隔离级别](https://blog.csdn.net/qq_33290787/article/details/51924963)》
 - 《[InnoDB幻读问题](http://blog.sina.com.cn/s/blog_499740cb0100ugs7.html)》
-
+-------------------------
 # 数据结构
 - 队列 
   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/queue.go)
@@ -195,7 +195,7 @@ TODO
 - 树
 - 图
 - 堆
-
+------------------------------
 
 #  测试
 #### 压力测试
@@ -210,4 +210,4 @@ TODO
     *  jmeter
     * 《[全链路压测](https://www.jianshu.com/p/27060fd61f72)》
     *  资源服务监控《[20个命令行工具监控](http://blog.jobbole.com/96846/)》
- 
+ --------------------------------
