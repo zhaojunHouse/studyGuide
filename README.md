@@ -1,3 +1,4 @@
+# 架构&运维&统计&技术支持
 #### 日志服务
 - 《[ELKB日志收集系统搭建](http://cjting.me/misc/build-log-system-with-elkb/)》《[ELK日志收集系统搭建](https://blog.csdn.net/lzw_2006/article/details/51280058)》《[日志收集系统](https://www.cnblogs.com/beginmind/p/6058194.html)》
    * Beats日志搬运工。安装在每台需要收集日志的服务器上，将日志发送给Logstash进行处理。[Filebeat配置安装](https://www.cnblogs.com/jingmoxukong/p/8185321.html)
@@ -41,7 +42,23 @@
    * TODO
 
 
-  
+
+
+# 网络
+
+#### 网络模型
+TODO
+
+
+# 安全
+
+#### 堡垒机（跳板机）
+- 《[搭建简易堡垒机](http://blog.51cto.com/zero01/2062618)》
+
+
+ 
+
+# 中间件  
 
 #### nginx
 - 《[nginx入门教程](http://tengine.taobao.org/book/chapter_02.html)》《[nginx中文文档](http://www.nginx.cn/doc/)》
@@ -84,14 +101,9 @@
 - 《[openResty作者agentzh的Nginx教程](https://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)》
 - 《[跟着开涛学openResty](http://jinnianshilongnian.iteye.com/blog/2190344)》
    * TODO 《亿级流量网站》
-
-
-#### 堡垒机（跳板机）
-- 《[搭建简易堡垒机](http://blog.51cto.com/zero01/2062618)》
-
-   
+  
  
-##### 并发
+# 并发
 - 《[为什么需要并发？](https://juejin.im/post/5ae6c3ef6fb9a07ab508ac85)》
   * 充分利用多核CPU的计算能力
   * 业务拆分，提升性能
@@ -137,10 +149,7 @@
 - 《[mysql加锁分析](http://hedengcheng.com/?p=771)》  《[聚簇索引与非聚簇索引](http://www.cnblogs.com/tuyile006/archive/2009/08/28/1555615.html)》《[MySQL索引原理及慢查询优化](https://tech.meituan.com/mysql_index.html)》
 
 
-
-
-
-#### TCP/HTTP
+# TCP/HTTP
 
 - 《[OSI七层网络协议模型](https://www.cnblogs.com/Robin-YB/p/6668762.html)》
 
@@ -161,12 +170,7 @@
 - 《[HTTPS原理](https://www.cnblogs.com/zhangshitong/p/6478721.html)》《[一个故事讲清HTTPS](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)》
 
 
-
-#### 网络模型
-TODO
-
-
-#### 数据库
+# 数据库
 
 - 《[三大范式五大约束](https://www.cnblogs.com/waj6511988/p/7027127.html)》
 - 《[数据库事务特性](https://blog.csdn.net/u012440687/article/details/52116108)》
