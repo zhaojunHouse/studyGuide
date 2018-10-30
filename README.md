@@ -41,20 +41,7 @@
    * TODO
 
 
-#  测试
-#### 压力测试
-- 《[apache ab测试使用指南](https://blog.csdn.net/blueheart20/article/details/52170790)》
-   * too many open files (解决方案：ulimit -n; nginx配置events同级 worker_rlimit_nofile 15360;)
-   * apr_socket_recv:Operation timed out  (解决方法：ab加上-k 开启keepAlive)
-   * apr_socket_connect(): Operation already in progress (解决方法：apache/conf/extra/httpd-mpm.conf  修改 ThreadsPerChild)
-   * apr_socket_recv: Connection reset by peer (54)
-   * setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive
- 
- - 《[大型网站压力测试及优化方案](https://www.cnblogs.com/binyue/p/6141088.html)》
-    *  jmeter
-    * 《[全链路压测](https://www.jianshu.com/p/27060fd61f72)》
-    *  资源服务监控《[20个命令行工具监控](http://blog.jobbole.com/96846/)》
-   
+  
 
 #### nginx
 - 《[nginx入门教程](http://tengine.taobao.org/book/chapter_02.html)》《[nginx中文文档](http://www.nginx.cn/doc/)》
@@ -153,7 +140,7 @@
 
 
 
-# TCP/HTTP
+#### TCP/HTTP
 
 - 《[OSI七层网络协议模型](https://www.cnblogs.com/Robin-YB/p/6668762.html)》
 
@@ -186,7 +173,7 @@ TODO
 - 《[数据库事务隔离级别](https://blog.csdn.net/qq_33290787/article/details/51924963)》
 - 《[InnoDB幻读问题](http://blog.sina.com.cn/s/blog_499740cb0100ugs7.html)》
 
-#### 数据结构
+# 数据结构
 - 队列 
   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/queue.go)
 - 链表 
@@ -206,3 +193,17 @@ TODO
 - 堆
 
 
+#  测试
+#### 压力测试
+- 《[apache ab测试使用指南](https://blog.csdn.net/blueheart20/article/details/52170790)》
+   * too many open files (解决方案：ulimit -n; nginx配置events同级 worker_rlimit_nofile 15360;)
+   * apr_socket_recv:Operation timed out  (解决方法：ab加上-k 开启keepAlive)
+   * apr_socket_connect(): Operation already in progress (解决方法：apache/conf/extra/httpd-mpm.conf  修改 ThreadsPerChild)
+   * apr_socket_recv: Connection reset by peer (54)
+   * setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive
+ 
+ - 《[大型网站压力测试及优化方案](https://www.cnblogs.com/binyue/p/6141088.html)》
+    *  jmeter
+    * 《[全链路压测](https://www.jianshu.com/p/27060fd61f72)》
+    *  资源服务监控《[20个命令行工具监控](http://blog.jobbole.com/96846/)》
+ 
