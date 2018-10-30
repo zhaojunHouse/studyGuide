@@ -1,3 +1,36 @@
+#  基础
+#### 网络模型
+TODO
+
+
+#### 数据库
+
+- 《[三大范式五大约束](https://www.cnblogs.com/waj6511988/p/7027127.html)》
+- 《[数据库事务特性](https://blog.csdn.net/u012440687/article/details/52116108)》
+- 《[数据库事务隔离级别](https://blog.csdn.net/qq_33290787/article/details/51924963)》
+- 《[InnoDB幻读问题](http://blog.sina.com.cn/s/blog_499740cb0100ugs7.html)》
+
+#### 数据结构
+- 队列 
+  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/queue.go)
+- 链表 
+  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/node.go)
+- 集合 
+  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/set.go)
+- 数组
+- 关联数组
+- 字典
+- 哈希表
+   * [定义](https://blog.csdn.net/duan19920101/article/details/51579136/)
+   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/hash.go)
+- 栈
+   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/stack.go)
+- 树
+- 图
+- 堆
+
+
+
 #  架构
 #### 微服务架构
 - 《[微服务架构设计](https://www.cnblogs.com/wintersun/p/6219259.html)》《[微服务架构选型](http://www.infoq.com/cn/articles/micro-service-technology-stack)》
@@ -147,24 +180,6 @@
 
 
 
-# 数据结构
-- 队列 
-  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/queue.go)
-- 链表 
-  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/node.go)
-- 集合 
-  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/set.go)
-- 数组
-- 关联数组
-- 字典
-- 哈希表
-   * [定义](https://blog.csdn.net/duan19920101/article/details/51579136/)
-   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/hash.go)
-- 栈
-   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/stack.go)
-- 树
-- 图
-- 堆
 
 
 # TCP/HTTP
@@ -187,13 +202,6 @@
 
 - 《[HTTPS原理](https://www.cnblogs.com/zhangshitong/p/6478721.html)》《[一个故事讲清HTTPS](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)》
 
-
-# 数据库
-
-- 《[三大范式五大约束](https://www.cnblogs.com/waj6511988/p/7027127.html)》
-- 《[数据库事务特性](https://blog.csdn.net/u012440687/article/details/52116108)》
-- 《[数据库事务隔离级别](https://blog.csdn.net/qq_33290787/article/details/51924963)》
-- 《[InnoDB幻读问题](http://blog.sina.com.cn/s/blog_499740cb0100ugs7.html)》
 
 
 
