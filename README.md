@@ -1,37 +1,17 @@
-#  基础
-#### 网络模型
-TODO
-
-
-#### 数据库
-
-- 《[三大范式五大约束](https://www.cnblogs.com/waj6511988/p/7027127.html)》
-- 《[数据库事务特性](https://blog.csdn.net/u012440687/article/details/52116108)》
-- 《[数据库事务隔离级别](https://blog.csdn.net/qq_33290787/article/details/51924963)》
-- 《[InnoDB幻读问题](http://blog.sina.com.cn/s/blog_499740cb0100ugs7.html)》
-
-#### 数据结构
-- 队列 
-  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/queue.go)
-- 链表 
-  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/node.go)
-- 集合 
-  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/set.go)
-- 数组
-- 关联数组
-- 字典
-- 哈希表
-   * [定义](https://blog.csdn.net/duan19920101/article/details/51579136/)
-   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/hash.go)
-- 栈
-   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/stack.go)
-- 树
-- 图
-- 堆
+#### 日志服务
+- 《[ELKB日志收集系统搭建](http://cjting.me/misc/build-log-system-with-elkb/)》《[ELK日志收集系统搭建](https://blog.csdn.net/lzw_2006/article/details/51280058)》《[日志收集系统](https://www.cnblogs.com/beginmind/p/6058194.html)》
+   * Beats日志搬运工。安装在每台需要收集日志的服务器上，将日志发送给Logstash进行处理。[Filebeat配置安装](https://www.cnblogs.com/jingmoxukong/p/8185321.html)
+   * LogStash把没条日志解析成每个字段[LogStash配置安装](https://www.cnblogs.com/moonlightL/p/7760512.html)
+   * ElasticSearch全文搜索日志 [ElasticSearch全文搜索引擎](http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html)
+   * Kibana是ElasticSearch全文搜索图形化界面 [Kibana安装](https://www.cnblogs.com/moonlightL/p/7764919.html)
+-  《[FileBeat+kafka进行日志实时传输](https://blog.csdn.net/paicMis/article/details/78888750)》
+   * kafka[教程](https://www.w3cschool.cn/apache_kafka/apache_kafka_introduction.html)
+- logrotate日志切割
+   * [linux日志切割](https://blog.csdn.net/junli_chen/article/details/77193438)
+   * [日志切割配置]( http://blog.51cto.com/wn2100/2074048)
 
 
 
-#  架构
 #### 微服务架构
 - 《[微服务架构设计](https://www.cnblogs.com/wintersun/p/6219259.html)》《[微服务架构选型](http://www.infoq.com/cn/articles/micro-service-technology-stack)》
    * API网关，RESTFUL，微服务
@@ -50,14 +30,7 @@ TODO
 - 《[Grpc官网](https://grpc.io/)》《[RPC原理介绍](https://www.cnblogs.com/LBSer/p/4853234.html)》
 
    
-#### 日志服务
-- 《[ELKB日志收集系统搭建](http://cjting.me/misc/build-log-system-with-elkb/)》《[ELK日志收集系统搭建](https://blog.csdn.net/lzw_2006/article/details/51280058)》《[日志收集系统](https://www.cnblogs.com/beginmind/p/6058194.html)》
-   * Beats日志搬运工。安装在每台需要收集日志的服务器上，将日志发送给Logstash进行处理。[Filebeat配置安装](https://www.cnblogs.com/jingmoxukong/p/8185321.html)
-   * LogStash把没条日志解析成每个字段[LogStash配置安装](https://www.cnblogs.com/moonlightL/p/7760512.html)
-   * ElasticSearch全文搜索日志 [ElasticSearch全文搜索引擎](http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html)
-   * Kibana是ElasticSearch全文搜索图形化界面 [Kibana安装](https://www.cnblogs.com/moonlightL/p/7764919.html)
--  《[FileBeat+kafka进行日志实时传输](https://blog.csdn.net/paicMis/article/details/78888750)》
-   * kafka[教程](https://www.w3cschool.cn/apache_kafka/apache_kafka_introduction.html)
+
 
 #### docker
 - 《[几张图帮你理解 docker 基本原理及快速入门](https://www.cnblogs.com/SzeCheng/p/6822905.html)》
@@ -83,7 +56,6 @@ TODO
     *  资源服务监控《[20个命令行工具监控](http://blog.jobbole.com/96846/)》
    
 
-#  Web Server
 #### nginx
 - 《[nginx入门教程](http://tengine.taobao.org/book/chapter_02.html)》《[nginx中文文档](http://www.nginx.cn/doc/)》
    * 进程模型：一个master进程，管理多个worker进程。一个请求只能一个worker进程处理。worker进程抢acceptMutex锁,然后接受请求，处理请求，返回请求，断开连接
@@ -126,14 +98,13 @@ TODO
 - 《[跟着开涛学openResty](http://jinnianshilongnian.iteye.com/blog/2190344)》
    * TODO 《亿级流量网站》
 
-#  安全
+
 #### 堡垒机（跳板机）
 - 《[搭建简易堡垒机](http://blog.51cto.com/zero01/2062618)》
 
    
-
-#  并发
-##### 概念
+ 
+##### 并发
 - 《[为什么需要并发？](https://juejin.im/post/5ae6c3ef6fb9a07ab508ac85)》
   * 充分利用多核CPU的计算能力
   * 业务拆分，提升性能
@@ -204,9 +175,34 @@ TODO
 
 
 
+#### 网络模型
+TODO
 
-# 参考文档
 
-- logrotate日志切割
-   * [linux日志切割](https://blog.csdn.net/junli_chen/article/details/77193438)
-   * [日志切割配置]( http://blog.51cto.com/wn2100/2074048)
+#### 数据库
+
+- 《[三大范式五大约束](https://www.cnblogs.com/waj6511988/p/7027127.html)》
+- 《[数据库事务特性](https://blog.csdn.net/u012440687/article/details/52116108)》
+- 《[数据库事务隔离级别](https://blog.csdn.net/qq_33290787/article/details/51924963)》
+- 《[InnoDB幻读问题](http://blog.sina.com.cn/s/blog_499740cb0100ugs7.html)》
+
+#### 数据结构
+- 队列 
+  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/queue.go)
+- 链表 
+  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/node.go)
+- 集合 
+  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/set.go)
+- 数组
+- 关联数组
+- 字典
+- 哈希表
+   * [定义](https://blog.csdn.net/duan19920101/article/details/51579136/)
+   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/hash.go)
+- 栈
+   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/stack.go)
+- 树
+- 图
+- 堆
+
+
