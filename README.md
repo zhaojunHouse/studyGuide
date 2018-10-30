@@ -12,6 +12,10 @@
 - 《[RPC概述](https://blog.csdn.net/top_code/article/details/54615853)》
    * 远程调用程序并返回
 - 《[分布式RPC框架性能大比拼dubbo、motan、rpcx、gRPC、thrift的性能比较](https://blog.csdn.net/testcs_dn/article/details/78050590)》
+- 《[Dubbo官网](http://dubbo.apache.org/en-us/)》《[Dubbo实现原理简单介绍](https://www.cnblogs.com/steven520213/p/7606598.html)》
+- 《[Thrift官网](http://thrift.apache.org/)》《[Thrift详解](https://blog.csdn.net/kesonyk/article/details/50924489)》
+- 《[Grpc官网](https://grpc.io/)》《[RPC原理介绍](https://www.cnblogs.com/LBSer/p/4853234.html)》
+
    
 #### 日志服务
 - 《[ELKB日志收集系统搭建](http://cjting.me/misc/build-log-system-with-elkb/)》《[ELK日志收集系统搭建](https://blog.csdn.net/lzw_2006/article/details/51280058)》《[日志收集系统](https://www.cnblogs.com/beginmind/p/6058194.html)》
