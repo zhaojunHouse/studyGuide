@@ -46,6 +46,10 @@
 #### 缓存
 - 《[HTTP缓存机制](https://www.cnblogs.com/chenqf/p/6386163.html)》
    * TODO
+#### 消息队列
+- 《[消息队列简介及好处](https://yq.aliyun.com/articles/606240)》
+- 《[Kafka、RabbitMQ、RocketMQ等消息中间件的对比 —— 消息发送性能和区别](https://blog.csdn.net/yunfeng482/article/details/72856762)》
+   
 
 # 架构&运维&统计&技术支持
 #### 日志服务
