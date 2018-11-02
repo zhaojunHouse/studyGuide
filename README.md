@@ -52,6 +52,8 @@
 - 《[Kafka、RabbitMQ、RocketMQ等消息中间件的对比 —— 消息发送性能和区别](https://blog.csdn.net/yunfeng482/article/details/72856762)》
    * Push方式：优点是可以尽可能快地将消息发送给消费者，缺点是如果消费者处理能力跟不上，消费者的缓冲区可能会溢出。 RabbitMQ 消费者默认是推模式（也支持拉模式）。
    * Pull方式：优点是消费端可以按处理能力进行拉去，缺点是会增加消息延迟。 Kafka 默认是拉模式。
+- 《[消息顺序和重复问题](https://www.jianshu.com/p/453c6e7ff81c)》
+   
 
 # 架构&运维&统计&技术支持
 #### 日志服务
