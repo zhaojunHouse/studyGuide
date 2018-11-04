@@ -56,6 +56,10 @@
 - 《[RabbitMQ应用场景以及基本原理介绍](https://blog.csdn.net/whoamiyang/article/details/54954780)》
 - 《[消息队列之 RabbitMQ](https://www.jianshu.com/p/79ca08116d57)》
 - 《[RabbitMQ之消息确认机制（事务+Confirm）](https://blog.csdn.net/u013256816/article/details/55515234)》
+- 《[RocketMQ 实战之快速入门](https://www.jianshu.com/p/824066d70da8)》
+- 《[RocketMQ源码分析](http://www.iocoder.cn/categories/RocketMQ/?vip&architect-awesome)》
+
+
 
 
    
