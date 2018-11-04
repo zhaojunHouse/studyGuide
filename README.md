@@ -1,9 +1,9 @@
 
 # 中间件  
 
-#### <font color="#dd00dd">nginx</font>
+#### nginx
 - 《[nginx入门教程](http://tengine.taobao.org/book/chapter_02.html)》《[nginx中文文档](http://www.nginx.cn/doc/)》
-   * 进程模型：一个master进程，管理多个worker进程。一个请求只能一个worker进程处理。worker进程抢acceptMutex锁,然后接受请求，处理请求，返回请求，断开连接
+   * 进程模型：一个master进程，<font color=#FF0000 >管理多个worker进程 </font>。一个请求只能一个worker进程处理。worker进程抢acceptMutex锁,然后接受请求，处理请求，返回请求，断开连接
    * 事件模型：高并发，异步非阻塞事件机制（例如epoll，循环处理准备好的事件请求，IO事件没有准备好就放回epoll)。
    * connection: TCP三次握手
    * request:  请求行、请求头、请求体、响应行、响应头、响应体
