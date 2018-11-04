@@ -54,6 +54,10 @@
    * Pull方式：优点是消费端可以按处理能力进行拉去，缺点是会增加消息延迟。 Kafka 默认是拉模式。
 - 《[消息顺序和重复问题](https://www.jianshu.com/p/453c6e7ff81c)》
 - 《[RabbitMQ应用场景以及基本原理介绍](https://blog.csdn.net/whoamiyang/article/details/54954780)》
+- 《[消息队列之 RabbitMQ](https://www.jianshu.com/p/79ca08116d57)》
+- 《[RabbitMQ之消息确认机制（事务+Confirm）](https://blog.csdn.net/u013256816/article/details/55515234)》
+
+
    
 
 # 架构&运维&统计&技术支持
