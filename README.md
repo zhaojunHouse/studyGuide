@@ -1,4 +1,4 @@
-# 中间件  
+# 中间件<sup>1</sup>  
 
 #### nginx
 - 《[nginx入门教程](http://tengine.taobao.org/book/chapter_02.html)》《[nginx中文文档](http://www.nginx.cn/doc/)》
