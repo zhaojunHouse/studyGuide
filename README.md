@@ -9,6 +9,8 @@
    * TCP/IP四层：数据链路层、网络层、传输层、应用层
 
 - 《[点对点 ，端到端](https://blog.csdn.net/qq_34940959/article/details/78583993)》
+   * 端到端：针对传输层，发送端与接收端之间建立连接再发数据。
+   * 点到点：针对数据链路层或网络层，数据发给直接相连的设备。
 
 - 《[TCP/IP四层协议理解](https://www.cnblogs.com/onepixel/p/7092302.html)》
 
