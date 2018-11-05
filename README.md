@@ -1,12 +1,9 @@
 
 # 网络
 
-## 1 网络模型
-TODO
+## 1 网络协议
 
-## 2 网络协议
-
-#### 2.1 TCP
+#### 1.1 OSI&TCP
 - 《[OSI七层网络协议模型](https://www.cnblogs.com/Robin-YB/p/6668762.html)》
 
 - 《[点对点 ，端到端](https://blog.csdn.net/qq_34940959/article/details/78583993)》
@@ -17,7 +14,7 @@ TODO
 
 - 《[TCP客户端服务端，连接断开，示例](https://www.cnblogs.com/huhuuu/p/3572485.html)》
 
-#### 2.2 HTTP
+#### 1.2 HTTP
 - 《[HTTP协议详解，抓包分析](https://www.cnblogs.com/wangning528/p/6388464.html)》
 
 - 《[HTTP2.0原理详解](https://blog.csdn.net/zhuyiquan/article/details/69257126)》
@@ -25,6 +22,12 @@ TODO
 - 《[HTTP2.0二进制帧](https://blog.csdn.net/u012657197/article/details/77877840)》
 
 - 《[HTTPS原理](https://www.cnblogs.com/zhangshitong/p/6478721.html)》《[一个故事讲清HTTPS](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)》
+
+
+## 2 网络模型
+TODO
+
+
 
 
 # 中间件 
@@ -64,7 +67,7 @@ TODO
 - 《[Nginx+Apache动静分离](https://www.cnblogs.com/mangood/p/6048720.html)》
    * nginx处理静态请求，apache处理动态请求
 
-#### 1.3 OpenResty<sup>1.1.3</sup>
+#### 1.3 OpenResty
 - 《[浅谈OpenResty](http://www.linkedkeeper.com/detail/blog.action?bid=1034)》 《[官方网站](http://openresty.org/cn/)》
    *  通过lua模块在nginx上开发。黑名单，防刷，限流等
 - 《[openResty作者agentzh的Nginx教程](https://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)》
