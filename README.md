@@ -50,11 +50,11 @@
 - 《[openResty作者agentzh的Nginx教程](https://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)》
 - 《[跟着开涛学openResty](http://jinnianshilongnian.iteye.com/blog/2190344)》
    * TODO 《亿级流量网站》
--------------------------  
+
 ## 2 缓存
 - 《[HTTP缓存机制](https://www.cnblogs.com/chenqf/p/6386163.html)》
    * TODO
--------------------------  
+  
 ## 3 消息队列
 - 《[消息队列简介及好处](https://yq.aliyun.com/articles/606240)》
    * 提高系统响应速度、提高系统稳定性、异步化、解耦、消除峰值
@@ -77,13 +77,13 @@
 
 - 《[Redis用作消息队列](https://blog.csdn.net/qq_34212276/article/details/78455004)》
    * 生产者、消费者模式完全是客户端行为，list 和 拉模式实现，阻塞等待采用 blpop 指令。
--------------------------  
+
 ## 4 定时调度
    * TODO
--------------------------  
+  
 ## 5 API网关
    * TODO
--------------------------  
+
    
 
 # 架构&运维&统计&技术支持
