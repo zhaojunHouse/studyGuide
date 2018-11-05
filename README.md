@@ -1,4 +1,31 @@
 
+# 网络
+
+## 1 网络模型
+TODO
+
+## 2 网络协议
+
+#### 2.1 TCP
+- 《[OSI七层网络协议模型](https://www.cnblogs.com/Robin-YB/p/6668762.html)》
+
+- 《[点对点 ，端到端](https://blog.csdn.net/qq_34940959/article/details/78583993)》
+
+- 《[TCP/IP四层协议理解](https://www.cnblogs.com/onepixel/p/7092302.html)》
+
+- 《[TCP三次握手，四次挥手](https://www.cnblogs.com/huhuuu/p/3572485.html)》
+
+- 《[TCP客户端服务端，连接断开，示例](https://www.cnblogs.com/huhuuu/p/3572485.html)》
+
+#### 2.2 HTTP
+- 《[HTTP协议详解，抓包分析](https://www.cnblogs.com/wangning528/p/6388464.html)》
+
+- 《[HTTP2.0原理详解](https://blog.csdn.net/zhuyiquan/article/details/69257126)》
+
+- 《[HTTP2.0二进制帧](https://blog.csdn.net/u012657197/article/details/77877840)》
+
+- 《[HTTPS原理](https://www.cnblogs.com/zhangshitong/p/6478721.html)》《[一个故事讲清HTTPS](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)》
+
 
 # 中间件 
 ## 1 Web Server
@@ -138,11 +165,6 @@ TODO
 
 
 
-# 网络
-
-## 1 网络模型
-TODO
-
 
 # 安全
 
@@ -199,25 +221,6 @@ TODO
 - 《[mysql加锁分析](http://hedengcheng.com/?p=771)》  《[聚簇索引与非聚簇索引](http://www.cnblogs.com/tuyile006/archive/2009/08/28/1555615.html)》《[MySQL索引原理及慢查询优化](https://tech.meituan.com/mysql_index.html)》
 
 
-# TCP/HTTP
-
-- 《[OSI七层网络协议模型](https://www.cnblogs.com/Robin-YB/p/6668762.html)》
-
-- 《[点对点 ，端到端](https://blog.csdn.net/qq_34940959/article/details/78583993)》
-
-- 《[TCP/IP四层协议理解](https://www.cnblogs.com/onepixel/p/7092302.html)》
-
-- 《[TCP三次握手，四次挥手](https://www.cnblogs.com/huhuuu/p/3572485.html)》
-
-- 《[TCP客户端服务端，连接断开，示例](https://www.cnblogs.com/huhuuu/p/3572485.html)》
-
-- 《[HTTP协议详解，抓包分析](https://www.cnblogs.com/wangning528/p/6388464.html)》
-
-- 《[HTTP2.0原理详解](https://blog.csdn.net/zhuyiquan/article/details/69257126)》
-
-- 《[HTTP2.0二进制帧](https://blog.csdn.net/u012657197/article/details/77877840)》
-
-- 《[HTTPS原理](https://www.cnblogs.com/zhangshitong/p/6478721.html)》《[一个故事讲清HTTPS](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)》
 
 
 # 数据库
