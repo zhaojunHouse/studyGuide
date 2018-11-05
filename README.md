@@ -5,6 +5,8 @@
 
 #### 1.1 OSI&TCP
 - 《[OSI七层网络协议模型](https://www.cnblogs.com/Robin-YB/p/6668762.html)》
+   * OSI七层：物理层（IEEE 802.1A, IEEE 802.2到IEEE 802.11）、数据链路层（FDDI, Ethernet, Arpanet, PDN, SLIP, PPP）、网络层（IP, ICMP, ARP, RARP, AKP, UUCP）、传输层（TCP, UDP）、会话层（SMTP, DNS）、表示层（Telnet, Rlogin, SNMP, Gopher）、应用层（HTTP、TFTP, FTP, NFS, WAIS、SMTP）
+   * TCP/IP四层：数据链路层、网络层、传输层、应用层
 
 - 《[点对点 ，端到端](https://blog.csdn.net/qq_34940959/article/details/78583993)》
 
