@@ -18,7 +18,7 @@
    * 传输层：定义端口，标识应用程序身份，实现端口到端口的通信，TCP协议可以保证数据传输的可靠性。
    * 应用层：定义数据格式并按照对应的格式解读数据
 
-- 《[TCP三次握手，四次挥手](https://www.cnblogs.com/huhuuu/p/3572485.html)》
+- 《[TCP三次握手，四次挥手](https://www.cnblogs.com/huhuuu/p/3572485.html)》《[TCP三次握手，四次挥手详解](https://blog.csdn.net/qzcsu/article/details/72861891)》
 
 - 《[TCP客户端服务端，连接断开，示例](https://www.cnblogs.com/huhuuu/p/3572485.html)》
 
