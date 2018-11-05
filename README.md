@@ -1,6 +1,6 @@
 # 中间件<sup>1</sup>  
-
-#### nginx
+## Web Server<sup>1.1</sup>
+### nginx<sup>1.1.1</sup>
 - 《[nginx入门教程](http://tengine.taobao.org/book/chapter_02.html)》《[nginx中文文档](http://www.nginx.cn/doc/)》
    * 进程模型：一个master进程，管理多个worker进程。一个请求只能一个worker进程处理。worker进程抢acceptMutex锁,然后接受请求，处理请求，返回请求，断开连接
    * 事件模型：高并发，异步非阻塞事件机制（例如epoll，循环处理准备好的事件请求，IO事件没有准备好就放回epoll)。
@@ -23,7 +23,7 @@
    * DNS域名解析；TCP连接；接受请求；处理请求；返回响应；关闭TCP；记录日志；解析HTML展示页面；
 
 
-#### apache
+#### apache<sup>1.1.2</sup>
 - 《[apache与nginx原理详解及对比](https://blog.csdn.net/yf3585595511/article/details/54933646)》《[apache原理](https://www.cnblogs.com/ghosth/p/7502197.html)》《[apache与nginx对比及优缺点](https://www.cnblogs.com/cunkouzh/p/5410154.html)》
    * apache一个子进程处理一个请求。nginx一个子进程通过异步非阻塞事件模型可以处理多个请求，所以并发能力强。
    * nginx轻量级，占用资源少。反向代理负载均衡。
@@ -35,18 +35,18 @@
 - 《[Nginx+Apache动静分离](https://www.cnblogs.com/mangood/p/6048720.html)》
    * nginx处理静态请求，apache处理动态请求
 
-#### OpenResty
+#### OpenResty<sup>1.1.3</sup>
 - 《[浅谈OpenResty](http://www.linkedkeeper.com/detail/blog.action?bid=1034)》 《[官方网站](http://openresty.org/cn/)》
    *  通过lua模块在nginx上开发。黑名单，防刷，限流等
 - 《[openResty作者agentzh的Nginx教程](https://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)》
 - 《[跟着开涛学openResty](http://jinnianshilongnian.iteye.com/blog/2190344)》
    * TODO 《亿级流量网站》
 -------------------------  
-#### 缓存
+## 缓存<sup>1.2</sup>
 - 《[HTTP缓存机制](https://www.cnblogs.com/chenqf/p/6386163.html)》
    * TODO
 -------------------------  
-#### 消息队列
+## 消息队列<sup>1.3</sup>
 - 《[消息队列简介及好处](https://yq.aliyun.com/articles/606240)》
    * 提高系统响应速度、提高系统稳定性、异步化、解耦、消除峰值
 - 《[Kafka、RabbitMQ、RocketMQ等消息中间件的对比 —— 消息发送性能和区别](https://blog.csdn.net/yunfeng482/article/details/72856762)》
@@ -69,10 +69,10 @@
 - 《[Redis用作消息队列](https://blog.csdn.net/qq_34212276/article/details/78455004)》
    * 生产者、消费者模式完全是客户端行为，list 和 拉模式实现，阻塞等待采用 blpop 指令。
 -------------------------  
-#### 定时调度
+## 定时调度<sup>1.4</sup>
    * TODO
 -------------------------  
-#### API网关
+## API网关<sup>1.5</sup>
    * TODO
 -------------------------  
    
