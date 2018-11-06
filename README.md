@@ -19,6 +19,14 @@
    * 应用层：定义数据格式并按照对应的格式解读数据
 
 - 《[TCP三次握手，四次挥手](https://www.cnblogs.com/huhuuu/p/3572485.html)》《[TCP三次握手，四次挥手详解](https://blog.csdn.net/qzcsu/article/details/72861891)》
+   * URG	紧急指针是否有效。为1，表示某一位需要被优先处理。
+   * ACK	确认号是否有效，一般置为1。
+   * PSH	提示接收端应用程序立即从TCP缓冲区把数据读走。
+   * RST	对方要求重新建立连接，复位。
+   * SYN	请求建立连接，并在其序列号的字段进行序列号的初始值设定。建立连接，设置为1.
+   * FIN	希望断开连接。
+   * 三次握手： 1. SYN = 1，seq = j  2. SYN=1，ACK=1,ack= j+1,seq= k    3.ACK=1,ack=k+1
+   * 四次挥手： 1. FIN=m 2.ACK=m+1 3.FIN=n   4 ACK=1,ack=n+1
 
 - 《[TCP客户端服务端，连接断开，示例](https://www.cnblogs.com/huhuuu/p/3572485.html)》
 
