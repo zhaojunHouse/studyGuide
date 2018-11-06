@@ -38,6 +38,8 @@
 
 
 - 《[HTTPS原理](https://www.cnblogs.com/zhangshitong/p/6478721.html)》《[一个故事讲清HTTPS](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)》
+   * 1. 浏览器发送HTTPS请求   2 服务器发送数字证书给客户端    3 浏览器CA列表验证证书    4 浏览器产生对称密钥，用公钥加密   5 用私钥揭秘获得对称密钥
+   6 用对称密钥加密通信。
 
 #### 1.3 LOT七大通信协议
 TODO
