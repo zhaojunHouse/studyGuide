@@ -31,11 +31,11 @@
 - 《[TCP客户端服务端，连接断开，示例](https://github.com/zhaojunHouse/demo)》
 
 #### 1.2 HTTP
-- 《[HTTP协议详解，抓包分析](https://www.cnblogs.com/wangning528/p/6388464.html)》
+- 《[HTTP协议详解，抓包分析](https://www.cnblogs.com/wangning528/p/6388464.html)》《[HTTP2.0原理详解](https://blog.csdn.net/zhuyiquan/article/details/69257126)》《[HTTP2.0二进制帧](https://blog.csdn.net/u012657197/article/details/77877840)》
+   * HTTP2.0二进制桢
+   * HTTP2.0:多路复用、压缩头信息、请求划分优先级、支持服务器端主动推送   
+   * HTTP1.0:每个请求都需单独建立连接（keep-alive能解决部分问题单不能交叉推送）、每个请求和响应都需要完整的头信息、数据未加密
 
-- 《[HTTP2.0原理详解](https://blog.csdn.net/zhuyiquan/article/details/69257126)》
-
-- 《[HTTP2.0二进制帧](https://blog.csdn.net/u012657197/article/details/77877840)》
 
 - 《[HTTPS原理](https://www.cnblogs.com/zhangshitong/p/6478721.html)》《[一个故事讲清HTTPS](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)》
 
