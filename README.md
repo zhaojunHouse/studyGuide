@@ -28,7 +28,7 @@
    * 三次握手： 1. SYN = 1，seq = j  2. SYN=1，ACK=1,ack= j+1,seq= k    3.ACK=1,ack=k+1
    * 四次挥手： 1. FIN=m 2.ACK=m+1 3.FIN=n   4 ACK=1,ack=n+1
 
-- 《[TCP客户端服务端，连接断开，示例](https://www.cnblogs.com/huhuuu/p/3572485.html)》
+- 《[TCP客户端服务端，连接断开，示例](https://github.com/zhaojunHouse/demo)》
 
 #### 1.2 HTTP
 - 《[HTTP协议详解，抓包分析](https://www.cnblogs.com/wangning528/p/6388464.html)》
