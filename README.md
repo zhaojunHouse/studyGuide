@@ -42,10 +42,12 @@
    6 用对称密钥加密通信。
 
 #### 1.3 LOT七大通信协议
-TODO
+- 《[LOT七大通信协议](https://www.jianshu.com/p/f5a6977e9fef)》
+   
 
 ## 2 网络模型
-TODO
+- 《[web优化必须了解的原理之I/o的五种模型和web的三种工作模式](http://blog.51cto.com/litaotao/1289790)》
+
 
 
 
