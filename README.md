@@ -99,10 +99,11 @@
 - 《[一文读懂I/O复用](https://blog.csdn.net/wangxindong11/article/details/78591308)》
    * 第一阶段select阻塞，第二阶段recvfrom阻塞
 #### 2.2 select，poll，epoll
-- 《[select、poll、epoll之间的区别总结[整理]](http://www.cnblogs.com/Anker/p/3265058.html)》《[select、poll、epoll区别](http://xingyunbaijunwei.blog.163.com/blog/static/76538067201241685556302/)》
+- 《[select、poll、epoll之间的区别总结[整理]](http://www.cnblogs.com/Anker/p/3265058.html)》《[select、poll、epoll区别](http://xingyunbaijunwei.blog.163.com/blog/static/76538067201241685556302/)》《[epoll使用详解](https://www.cnblogs.com/fnlingnzb-learner/p/5835573.html)》
    * 每次调用select，都需要把fd集合从用户态拷贝到内核态，这个开销在fd很多时会很大
    * 同时每次调用select都需要在内核遍历传递进来的所有fd，这个开销在fd很多时也很大
    * select支持的文件描述符数量太小了，默认是1024
+
 #### 2.3 BIO NIO AIO
 - 《[BIO与NIO、AIO的区别](https://blog.csdn.net/skiof007/article/details/52873421)》   
 - 《[两种高效的服务器设计模型：Reactor和Proactor模型](https://blog.csdn.net/u013074465/article/details/46276967)》  
