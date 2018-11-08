@@ -49,7 +49,9 @@
 <!-- /TOC -->
 # 性能
 ## 1 性能优化方法
-TODO
+   * 《[15天的性能优化工作，5方面的调优经验](https://blog.csdn.net/huangwenyi1010/article/details/72673447?ref=myread)》
+   
+   
 # 网络
 ## 1 网络协议
 #### 1.1 TCP/IP
