@@ -2,7 +2,7 @@
 
 - [网络](#网络)
     - [1 网络协议](#1-网络协议)  
-            &nbsp;&nbsp;- [1.1 OSI&TCP](#11-ositcp)  
+            &nbsp;&nbsp;- [1.1 TCP/IP](#11-TCP/IP)  
             &nbsp;&nbsp;- [1.2 HTTP](#12-http)  
             &nbsp;&nbsp;- [1.3 LOT七大通信协议](#13-lot七大通信协议)
     - [2 网络模型](#2-网络模型)  
@@ -48,7 +48,7 @@
 
 ## 1 网络协议
 
-#### 1.1 OSI&TCP
+#### 1.1 TCP/IP
 - 《[OSI七层网络协议模型](https://www.cnblogs.com/Robin-YB/p/6668762.html)》
    * OSI七层：物理层（IEEE 802.1A, IEEE 802.2到IEEE 802.11）、数据链路层（FDDI, Ethernet, Arpanet, PDN, SLIP, PPP）、网络层（IP, ICMP, ARP, RARP, AKP, UUCP）、传输层（TCP, UDP）、会话层（SMTP, DNS）、表示层（Telnet, Rlogin, SNMP, Gopher）、应用层（HTTP、TFTP, FTP, NFS, WAIS、SMTP）
    * TCP/IP四层：数据链路层、网络层、传输层、应用层
