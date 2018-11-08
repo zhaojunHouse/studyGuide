@@ -88,14 +88,16 @@
    
 
 ## 2 网络模型
+#### 2.1 I/O模型
 - 《[web优化必须了解的原理之I/o的五种模型和web的三种工作模式](http://blog.51cto.com/litaotao/1289790)》
    * I/O步骤：进程向操作系统请求数据 ;操作系统把外部数据加载到内核的缓冲区中;操作系统把内核的缓冲区拷贝到进程的缓冲区 ;进程获得数据完成自己的功能 ;
    * 五种I/O模型：阻塞I/O，非阻塞I/O，I/O复用、事件(信号)驱动I/O、异步I/O，前四种I/O属于同步操作，I/O的第一阶段不同、第二阶段相同，最后的一种则属于异步操作。
    * 三种 Web Server 工作方式：Prefork(多进程)、Worker方式(线程方式)、Event方式。
 - 《[一文读懂I/O复用](https://blog.csdn.net/wangxindong11/article/details/78591308)》
    * 第一阶段select阻塞，第二阶段recvfrom阻塞
-
-
+#### 2.2 select，poll，epoll
+- 《[select、poll、epoll之间的区别总结[整理]](http://www.cnblogs.com/Anker/p/3265058.html)》
+   
 
 
 # 中间件 
