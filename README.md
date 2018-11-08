@@ -1,5 +1,5 @@
 <!-- TOC -->
-
+- [性能](#性能)
 - [网络](#网络)
     - [1 网络协议](#1-网络协议)  
             &nbsp;&nbsp;- [1.1 TCP/IP](#11-tcpip)  
@@ -47,10 +47,11 @@
     - [1 压力测试](#1-压力测试)
 
 <!-- /TOC -->
+# 性能
+## 1 性能优化方法
+TODO
 # 网络
-
 ## 1 网络协议
-
 #### 1.1 TCP/IP
 - 《[OSI七层网络协议模型](https://www.cnblogs.com/Robin-YB/p/6668762.html)》
    * OSI七层：物理层（IEEE 802.1A, IEEE 802.2到IEEE 802.11）、数据链路层（FDDI, Ethernet, Arpanet, PDN, SLIP, PPP）、网络层（IP, ICMP, ARP, RARP, AKP, UUCP）、传输层（TCP, UDP）、会话层（SMTP, DNS）、表示层（Telnet, Rlogin, SNMP, Gopher）、应用层（HTTP、TFTP, FTP, NFS, WAIS、SMTP）
