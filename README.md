@@ -1,5 +1,6 @@
 <!-- TOC -->
 - [性能](#性能)
+    - [1 性能优化方法](#1-性能优化方法) 
 - [网络](#网络)
     - [1 网络协议](#1-网络协议)  
             &nbsp;&nbsp;- [1.1 TCP/IP](#11-tcpip)  
@@ -49,8 +50,10 @@
 <!-- /TOC -->
 # 性能
 ## 1 性能优化方法
-   * 《[15天的性能优化工作，5方面的调优经验](https://blog.csdn.net/huangwenyi1010/article/details/72673447?ref=myread)》
-   
+- 《[15天的性能优化工作，5方面的调优经验](https://blog.csdn.net/huangwenyi1010/article/details/72673447?ref=myread)》
+    * 代码层面、业务层面、数据库层面、服务器层面、前端优化。  
+- 《[系统优化的几个方面](https://blog.csdn.net/tenglizhe/article/details/44563135)》
+  
    
 # 网络
 ## 1 网络协议
