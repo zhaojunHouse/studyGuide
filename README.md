@@ -9,8 +9,8 @@
             &nbsp;&nbsp;- [2.1 I/O模型](#21-io模型)  
             &nbsp;&nbsp;- [2.2 select，poll，epoll](#22-selectpollepoll)  
             &nbsp;&nbsp;- [2.3 BIO NIO AIO](#23-bio-nio-aio)  
-            &nbsp;&nbsp;- [2.4 kqueue](#24-kqueue)
-            &nbsp;&nbsp;- [2.5 长连接短链接](#24-长连接短链接)
+            &nbsp;&nbsp;- [2.4 kqueue](#24-kqueue)  
+            &nbsp;&nbsp;- [2.5 长连接短链接](#25-长连接短链接)
             
 - [中间件](#中间件)  
     - [1 Web Server](#1-web-server)  
