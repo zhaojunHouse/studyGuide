@@ -100,7 +100,9 @@
    * 每次调用select，都需要把fd集合从用户态拷贝到内核态，这个开销在fd很多时会很大
    * 同时每次调用select都需要在内核遍历传递进来的所有fd，这个开销在fd很多时也很大
    * select支持的文件描述符数量太小了，默认是1024
-
+#### 2.3 BIO NIO AIO
+- 《[BIO与NIO、AIO的区别](https://blog.csdn.net/skiof007/article/details/52873421)》   
+- 《[两种高效的服务器设计模型：Reactor和Proactor模型](https://blog.csdn.net/u013074465/article/details/46276967)》  
 
 # 中间件 
 ## 1 Web Server
