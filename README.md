@@ -3,6 +3,8 @@
     - [1 性能优化方法](#1-性能优化方法) 
     - [2 容量评估](#2-容量评估) 
     - [3 CDN加速](#3-cdn加速) 
+    - [4 连接池](#4-连接池) 
+    - [5 优化工具](#5-优化工具) 
 - [网络](#网络)
     - [1 网络协议](#1-网络协议)  
             &nbsp;&nbsp; [1.1  TCP/IP](#11-tcpip)  
@@ -64,6 +66,14 @@
 ## 3 CDN加速
 - 《[CDN加速原理](https://www.cnblogs.com/wxiaona/p/5867685.html)》
 - 《[国内有哪些比较好的 CDN？](https://www.zhihu.com/question/20536932)》
+
+## 4 连接池
+- 《[golang通用连接池实现](https://blog.csdn.net/mengxinghuiku/article/details/79730871)》
+
+## 5 优化工具
+- 《[php性能优化工具xhprof安装](https://www.cnblogs.com/etata/p/5177844.html)》
+- 《[golang性能优化工具](https://blog.csdn.net/WaltonWang/article/details/54019891)》
+
 
    
 # 网络
