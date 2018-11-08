@@ -53,7 +53,11 @@
 - 《[15天的性能优化工作，5方面的调优经验](https://blog.csdn.net/huangwenyi1010/article/details/72673447?ref=myread)》
     * 代码层面、业务层面、数据库层面、服务器层面、前端优化。  
 - 《[系统优化的几个方面](https://blog.csdn.net/tenglizhe/article/details/44563135)》
-  
+
+## 2 容量评估 
+- 《[互联网架构，如何进行容量设计？](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651959542&idx=1&sn=2494bbea9a855e0e1c3ccd6d2562a600&scene=21#wechat_redirect)》
+   * 总访问量，平均访问量，高峰QPS，压测获取单机极限QPS，机器配置。
+- 《[互联网性能与容量评估的方法论和典型案例](https://blog.csdn.net/u012528360/article/details/70054156)》
    
 # 网络
 ## 1 网络协议
