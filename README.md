@@ -8,8 +8,10 @@
     - [2 网络模型](#2-网络模型)  
             &nbsp;&nbsp;- [2.1 I/O模型](#21-io模型)  
             &nbsp;&nbsp;- [2.2 select，poll，epoll](#22-selectpollepoll)  
-            &nbsp;&nbsp;- [2.3 BIO NIO AIO](#23-bio-nio-aio)
+            &nbsp;&nbsp;- [2.3 BIO NIO AIO](#23-bio-nio-aio)  
             &nbsp;&nbsp;- [2.4 kqueue](#24-kqueue)
+            &nbsp;&nbsp;- [2.5 长连接短链接](#24-长连接短链接)
+            
 - [中间件](#中间件)  
     - [1 Web Server](#1-web-server)  
             &nbsp;&nbsp;- [1.1 nginx](#11-nginx)  
@@ -108,6 +110,13 @@
 #### 2.3 BIO NIO AIO
 - 《[BIO与NIO、AIO的区别](https://blog.csdn.net/skiof007/article/details/52873421)》   
 - 《[两种高效的服务器设计模型：Reactor和Proactor模型](https://blog.csdn.net/u013074465/article/details/46276967)》  
+
+#### 2.4 kqueue
+- 《[kqueue用法简介](http://www.cnblogs.com/luminocean/p/5631336.html)》
+
+#### 2.5 长连接短链接
+- 《[长连接短链接](https://www.cnblogs.com/pangguoping/p/5571422.html)》
+
 
 # 中间件 
 ## 1 Web Server
