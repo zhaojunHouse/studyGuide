@@ -1,5 +1,7 @@
 <!-- TOC -->
-
+- [数据结构&算法](#数据结构算法)
+    - [1 数据结构](#1-数据结构)
+    - [2 算法](#2-算法)
 - [操作系统](#操作系统)
     - [1 计算机原理](#1-计算机原理)
     - [2 CPU](#2-cpu)
@@ -7,20 +9,6 @@
     - [4 线程](#4-线程)
     - [5 协程](#5-协程)
     - [6 Linux](#6-linux)
-- [框架](#框架)
-- [分布式设计](#分布式设计)
-- [大数据](#大数据)
-- [搜索引擎](#搜索引擎)
-- [项目管理](#项目管理)
-- [设计思想&开发模式](#设计思想&开发模式)
-- [资讯&技术资源](#资讯&技术资源)
-
-- [性能](#性能)
-    - [1 性能优化方法](#1-性能优化方法) 
-    - [2 容量评估](#2-容量评估) 
-    - [3 CDN加速](#3-cdn加速) 
-    - [4 连接池](#4-连接池) 
-    - [5 优化工具](#5-优化工具) 
 - [网络](#网络)
     - [1 网络协议](#1-网络协议)  
             &nbsp;&nbsp; [1.1  TCP/IP](#11-tcpip)  
@@ -32,7 +20,8 @@
             &nbsp;&nbsp; [2.3  BIO NIO AIO](#23-bio-nio-aio)  
             &nbsp;&nbsp; [2.4  kqueue](#24-kqueue)  
             &nbsp;&nbsp; [2.5  长连接短链接](#25-长连接短链接)
-            
+- [设计模式](#设计模式)
+- [设计思想&开发模式](#设计思想&开发模式)
 - [中间件](#中间件)  
     - [1 Web Server](#1-web-server)  
             &nbsp;&nbsp; [1.1  nginx](#11-nginx)  
@@ -42,40 +31,57 @@
     - [3 消息队列](#3-消息队列)
     - [4 定时调度](#4-定时调度)
     - [5 API网关](#5-api网关)
-- [设计模式](#设计模式)
-
+- [数据库](#数据库)
+- [测试](#测试)
+    - [1 压力测试](#1-压力测试)
+   
+- [并发](#并发)
+    - [1 并发概念](#1-并发概念)
+    - [2 锁](#2-锁)
+- [性能](#性能)
+    - [1 性能优化方法](#1-性能优化方法) 
+    - [2 容量评估](#2-容量评估) 
+    - [3 CDN加速](#3-cdn加速) 
+    - [4 连接池](#4-连接池) 
+    - [5 优化工具](#5-优化工具) 
+- [安全](#安全)
+    - [1 堡垒机（跳板机）](#1-堡垒机跳板机) 
 - [架构&运维&统计&技术支持](#架构运维统计技术支持)
     - [1 日志服务](#1-日志服务)
     - [2 微服务架构](#2-微服务架构)
     - [3 RPC](#3-rpc)
-    - [4 docker](#4-docker)
-- [安全](#安全)
-    - [1 堡垒机（跳板机）](#1-堡垒机跳板机)
-- [并发](#并发)
-    - [1 并发概念](#1-并发概念)
-    - [2 锁](#2-锁)
-- [数据库](#数据库)
-- [数据结构&算法](#数据结构算法)
-    - [1 数据结构](#1-数据结构)
-    - [2 算法](#2-算法)
-- [测试](#测试)
-    - [1 压力测试](#1-压力测试)
+    - [4 docker](#4-docker) 
+- [框架](#框架)
+- [分布式设计](#分布式设计)
+- [大数据](#大数据)
+- [搜索引擎](#搜索引擎)
+- [项目管理](#项目管理)
+- [资讯&技术资源](#资讯&技术资源)
+
 
 <!-- /TOC -->
-# 项目管理
+# 数据结构&算法
+## 1 数据结构
+- 队列 
+  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/queue.go)
+- 链表 
+  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/node.go)
+- 集合 
+  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/set.go)
+- 数组
+- 关联数组
+- 字典
+- 哈希表
+   * [定义](https://blog.csdn.net/duan19920101/article/details/51579136/)
+   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/hash.go)
+- 栈
+   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/stack.go)
+- 树
+- 图
+- 堆
+## 2 算法
 TODO
-# 资讯&技术资源
-TODO
-# 设计思想&开发模式
-TODO
-# 分布式设计
-TODO
-# 框架
-TODO
-# 大数据
-TODO
-# 搜索引擎
-TODO
+
 # 操作系统
 ## 1 计算机原理
 - 《[操作系统基础知识——操作系统的原理，类型和结构](https://segmentfault.com/a/1190000003692840)》
@@ -95,30 +101,6 @@ TODO
 
 ## 6 Linux
 - 《[Linux 命令大全](http://www.runoob.com/linux/linux-command-manual.html)》
-
-
-# 性能
-## 1 性能优化方法
-- 《[15天的性能优化工作，5方面的调优经验](https://blog.csdn.net/huangwenyi1010/article/details/72673447?ref=myread)》
-    * 代码层面、业务层面、数据库层面、服务器层面、前端优化。  
-- 《[系统优化的几个方面](https://blog.csdn.net/tenglizhe/article/details/44563135)》
-
-## 2 容量评估 
-- 《[互联网架构，如何进行容量设计？](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651959542&idx=1&sn=2494bbea9a855e0e1c3ccd6d2562a600&scene=21#wechat_redirect)》
-   * 总访问量，平均访问量，高峰QPS，压测获取单机极限QPS，机器配置。
-- 《[互联网性能与容量评估的方法论和典型案例](https://blog.csdn.net/u012528360/article/details/70054156)》
-
-## 3 CDN加速
-- 《[CDN加速原理](https://www.cnblogs.com/wxiaona/p/5867685.html)》
-- 《[国内有哪些比较好的 CDN？](https://www.zhihu.com/question/20536932)》
-
-## 4 连接池
-- 《[golang通用连接池实现](https://blog.csdn.net/mengxinghuiku/article/details/79730871)》
-
-## 5 优化工具
-- 《[php性能优化工具xhprof安装](https://www.cnblogs.com/etata/p/5177844.html)》
-- 《[golang性能优化工具](https://blog.csdn.net/WaltonWang/article/details/54019891)》
-
 
    
 # 网络
@@ -188,6 +170,52 @@ TODO
 
 #### 2.5 长连接短链接
 - 《[长连接短链接](https://www.cnblogs.com/pangguoping/p/5571422.html)》
+
+
+
+
+
+
+
+# 项目管理
+TODO
+# 资讯&技术资源
+TODO
+# 设计思想&开发模式
+TODO
+# 分布式设计
+TODO
+# 框架
+TODO
+# 大数据
+TODO
+# 搜索引擎
+TODO
+
+
+# 性能
+## 1 性能优化方法
+- 《[15天的性能优化工作，5方面的调优经验](https://blog.csdn.net/huangwenyi1010/article/details/72673447?ref=myread)》
+    * 代码层面、业务层面、数据库层面、服务器层面、前端优化。  
+- 《[系统优化的几个方面](https://blog.csdn.net/tenglizhe/article/details/44563135)》
+
+## 2 容量评估 
+- 《[互联网架构，如何进行容量设计？](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651959542&idx=1&sn=2494bbea9a855e0e1c3ccd6d2562a600&scene=21#wechat_redirect)》
+   * 总访问量，平均访问量，高峰QPS，压测获取单机极限QPS，机器配置。
+- 《[互联网性能与容量评估的方法论和典型案例](https://blog.csdn.net/u012528360/article/details/70054156)》
+
+## 3 CDN加速
+- 《[CDN加速原理](https://www.cnblogs.com/wxiaona/p/5867685.html)》
+- 《[国内有哪些比较好的 CDN？](https://www.zhihu.com/question/20536932)》
+
+## 4 连接池
+- 《[golang通用连接池实现](https://blog.csdn.net/mengxinghuiku/article/details/79730871)》
+
+## 5 优化工具
+- 《[php性能优化工具xhprof安装](https://www.cnblogs.com/etata/p/5177844.html)》
+- 《[golang性能优化工具](https://blog.csdn.net/WaltonWang/article/details/54019891)》
+
+
 
 
 # 中间件 
@@ -385,27 +413,6 @@ TODO
 - 《[数据库事务隔离级别](https://blog.csdn.net/qq_33290787/article/details/51924963)》
 - 《[InnoDB幻读问题](http://blog.sina.com.cn/s/blog_499740cb0100ugs7.html)》
 
-# 数据结构&算法
-## 1 数据结构
-- 队列 
-  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/queue.go)
-- 链表 
-  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/node.go)
-- 集合 
-  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/set.go)
-- 数组
-- 关联数组
-- 字典
-- 哈希表
-   * [定义](https://blog.csdn.net/duan19920101/article/details/51579136/)
-   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/hash.go)
-- 栈
-   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/stack.go)
-- 树
-- 图
-- 堆
-## 2 算法
-TODO
 
 
 #  测试
