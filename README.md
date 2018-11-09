@@ -65,7 +65,11 @@
 - 《[多线程与多进程的概念和实例讲解](https://www.2cto.com/kf/201802/719224.html)》
 
 ## 4 线程
+- 《[线程的生命周期及状态转换详解](https://blog.csdn.net/asdf_1024/article/details/78978437)》
+
 ## 5 协程
+- 《[Golang 之协程详解](https://www.cnblogs.com/liang1101/p/7285955.html)》
+
 ## 6 Linux
 TODO
 
