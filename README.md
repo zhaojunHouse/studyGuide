@@ -173,50 +173,11 @@ TODO
 
 
 
-
-
-
-
-# 项目管理
+# 设计模式
 TODO
-# 资讯&技术资源
-TODO
+
 # 设计思想&开发模式
 TODO
-# 分布式设计
-TODO
-# 框架
-TODO
-# 大数据
-TODO
-# 搜索引擎
-TODO
-
-
-# 性能
-## 1 性能优化方法
-- 《[15天的性能优化工作，5方面的调优经验](https://blog.csdn.net/huangwenyi1010/article/details/72673447?ref=myread)》
-    * 代码层面、业务层面、数据库层面、服务器层面、前端优化。  
-- 《[系统优化的几个方面](https://blog.csdn.net/tenglizhe/article/details/44563135)》
-
-## 2 容量评估 
-- 《[互联网架构，如何进行容量设计？](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651959542&idx=1&sn=2494bbea9a855e0e1c3ccd6d2562a600&scene=21#wechat_redirect)》
-   * 总访问量，平均访问量，高峰QPS，压测获取单机极限QPS，机器配置。
-- 《[互联网性能与容量评估的方法论和典型案例](https://blog.csdn.net/u012528360/article/details/70054156)》
-
-## 3 CDN加速
-- 《[CDN加速原理](https://www.cnblogs.com/wxiaona/p/5867685.html)》
-- 《[国内有哪些比较好的 CDN？](https://www.zhihu.com/question/20536932)》
-
-## 4 连接池
-- 《[golang通用连接池实现](https://blog.csdn.net/mengxinghuiku/article/details/79730871)》
-
-## 5 优化工具
-- 《[php性能优化工具xhprof安装](https://www.cnblogs.com/etata/p/5177844.html)》
-- 《[golang性能优化工具](https://blog.csdn.net/WaltonWang/article/details/54019891)》
-
-
-
 
 # 中间件 
 ## 1 Web Server
@@ -296,65 +257,28 @@ TODO
    * TODO
 
 
-# 设计模式
-TODO
+# 数据库
 
-
-   
-
-# 架构&运维&统计&技术支持
-## 1 日志服务
-- 《[ELKB日志收集系统搭建](http://cjting.me/misc/build-log-system-with-elkb/)》《[ELK日志收集系统搭建](https://blog.csdn.net/lzw_2006/article/details/51280058)》《[日志收集系统](https://www.cnblogs.com/beginmind/p/6058194.html)》
-   * Beats日志搬运工。安装在每台需要收集日志的服务器上，将日志发送给Logstash进行处理。[Filebeat配置安装](https://www.cnblogs.com/jingmoxukong/p/8185321.html)
-   * LogStash把没条日志解析成每个字段[LogStash配置安装](https://www.cnblogs.com/moonlightL/p/7760512.html)
-   * ElasticSearch全文搜索日志 [ElasticSearch全文搜索引擎](http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html)《[索引搜索查询及增删改查](https://www.cnblogs.com/pilihaotian/p/5830754.html)》《[ElasticSearch权威指南](https://es.xiaoleilu.com/010_Intro/00_README.html)》
-   * Kibana是ElasticSearch全文搜索图形化界面 [Kibana安装](https://www.cnblogs.com/moonlightL/p/7764919.html)
--  《[FileBeat+kafka进行日志实时传输](https://blog.csdn.net/paicMis/article/details/78888750)》
-   * kafka[教程](https://www.w3cschool.cn/apache_kafka/apache_kafka_introduction.html)
-- logrotate日志切割
-   * [linux日志切割](https://blog.csdn.net/junli_chen/article/details/77193438)
-   * [日志切割配置]( http://blog.51cto.com/wn2100/2074048)
+- 《[三大范式五大约束](https://www.cnblogs.com/waj6511988/p/7027127.html)》
+- 《[数据库事务特性](https://blog.csdn.net/u012440687/article/details/52116108)》
+- 《[数据库事务隔离级别](https://blog.csdn.net/qq_33290787/article/details/51924963)》
+- 《[InnoDB幻读问题](http://blog.sina.com.cn/s/blog_499740cb0100ugs7.html)》
 
 
 
-## 2 微服务架构
-- 《[微服务架构设计](https://www.cnblogs.com/wintersun/p/6219259.html)》《[微服务架构选型](http://www.infoq.com/cn/articles/micro-service-technology-stack)》
-   * API网关，RESTFUL，微服务
-- 《[RESTFUL API架构](https://www.runoob.com/w3cnote/restful-architecture.html)》
-- 《[API网关](https://www.cnblogs.com/savorboard/p/api-gateway.html)》
-   * [kong](git地址https://github.com/Kong/kong) 
--  项目实例
-   * TODO
-   
-## 3 RPC
-- 《[RPC概述](https://blog.csdn.net/top_code/article/details/54615853)》
-   * 远程调用程序并返回
-- 《[分布式RPC框架性能大比拼dubbo、motan、rpcx、gRPC、thrift的性能比较](https://blog.csdn.net/testcs_dn/article/details/78050590)》
-- 《[Dubbo官网](http://dubbo.apache.org/en-us/)》《[Dubbo实现原理简单介绍](https://www.cnblogs.com/steven520213/p/7606598.html)》
-- 《[Thrift官网](http://thrift.apache.org/)》《[Thrift详解](https://blog.csdn.net/kesonyk/article/details/50924489)》
-- 《[Grpc官网](https://grpc.io/)》《[RPC原理介绍](https://www.cnblogs.com/LBSer/p/4853234.html)》
-
-   
-
-
-## 4 docker
-- 《[几张图帮你理解 docker 基本原理及快速入门](https://www.cnblogs.com/SzeCheng/p/6822905.html)》
-   * 镜像，容器。一个镜像可以建立多个容器，一个容器最多127层。
-- 《[docker核心技术与实现](https://draveness.me/docker)》
-- 《[docker教程](http://www.runoob.com/docker/docker-tutorial.html)》
--  项目实例
-   * TODO
-
-
-
-
-
-# 安全
-
-## 1 堡垒机（跳板机）
-- 《[搭建简易堡垒机](http://blog.51cto.com/zero01/2062618)》
-
-
+#  测试
+## 1 压力测试
+- 《[apache ab测试使用指南](https://blog.csdn.net/blueheart20/article/details/52170790)》
+   * too many open files (解决方案：ulimit -n; nginx配置events同级 worker_rlimit_nofile 15360;)
+   * apr_socket_recv:Operation timed out  (解决方法：ab加上-k 开启keepAlive)
+   * apr_socket_connect(): Operation already in progress (解决方法：apache/conf/extra/httpd-mpm.conf  修改 ThreadsPerChild)
+   * apr_socket_recv: Connection reset by peer (54)
+   * setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive
+ 
+ - 《[大型网站压力测试及优化方案](https://www.cnblogs.com/binyue/p/6141088.html)》
+    *  jmeter
+    * 《[全链路压测](https://www.jianshu.com/p/27060fd61f72)》
+    *  资源服务监控《[20个命令行工具监控](http://blog.jobbole.com/96846/)》
 
  
 # 并发
@@ -405,27 +329,99 @@ TODO
 
 
 
+# 性能
+## 1 性能优化方法
+- 《[15天的性能优化工作，5方面的调优经验](https://blog.csdn.net/huangwenyi1010/article/details/72673447?ref=myread)》
+    * 代码层面、业务层面、数据库层面、服务器层面、前端优化。  
+- 《[系统优化的几个方面](https://blog.csdn.net/tenglizhe/article/details/44563135)》
 
-# 数据库
+## 2 容量评估 
+- 《[互联网架构，如何进行容量设计？](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651959542&idx=1&sn=2494bbea9a855e0e1c3ccd6d2562a600&scene=21#wechat_redirect)》
+   * 总访问量，平均访问量，高峰QPS，压测获取单机极限QPS，机器配置。
+- 《[互联网性能与容量评估的方法论和典型案例](https://blog.csdn.net/u012528360/article/details/70054156)》
 
-- 《[三大范式五大约束](https://www.cnblogs.com/waj6511988/p/7027127.html)》
-- 《[数据库事务特性](https://blog.csdn.net/u012440687/article/details/52116108)》
-- 《[数据库事务隔离级别](https://blog.csdn.net/qq_33290787/article/details/51924963)》
-- 《[InnoDB幻读问题](http://blog.sina.com.cn/s/blog_499740cb0100ugs7.html)》
+## 3 CDN加速
+- 《[CDN加速原理](https://www.cnblogs.com/wxiaona/p/5867685.html)》
+- 《[国内有哪些比较好的 CDN？](https://www.zhihu.com/question/20536932)》
+
+## 4 连接池
+- 《[golang通用连接池实现](https://blog.csdn.net/mengxinghuiku/article/details/79730871)》
+
+## 5 优化工具
+- 《[php性能优化工具xhprof安装](https://www.cnblogs.com/etata/p/5177844.html)》
+- 《[golang性能优化工具](https://blog.csdn.net/WaltonWang/article/details/54019891)》
 
 
 
-#  测试
-## 1 压力测试
-- 《[apache ab测试使用指南](https://blog.csdn.net/blueheart20/article/details/52170790)》
-   * too many open files (解决方案：ulimit -n; nginx配置events同级 worker_rlimit_nofile 15360;)
-   * apr_socket_recv:Operation timed out  (解决方法：ab加上-k 开启keepAlive)
-   * apr_socket_connect(): Operation already in progress (解决方法：apache/conf/extra/httpd-mpm.conf  修改 ThreadsPerChild)
-   * apr_socket_recv: Connection reset by peer (54)
-   * setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive
- 
- - 《[大型网站压力测试及优化方案](https://www.cnblogs.com/binyue/p/6141088.html)》
-    *  jmeter
-    * 《[全链路压测](https://www.jianshu.com/p/27060fd61f72)》
-    *  资源服务监控《[20个命令行工具监控](http://blog.jobbole.com/96846/)》
+# 安全
 
+## 1 堡垒机（跳板机）
+- 《[搭建简易堡垒机](http://blog.51cto.com/zero01/2062618)》
+
+
+
+   
+
+# 架构&运维&统计&技术支持
+## 1 日志服务
+- 《[ELKB日志收集系统搭建](http://cjting.me/misc/build-log-system-with-elkb/)》《[ELK日志收集系统搭建](https://blog.csdn.net/lzw_2006/article/details/51280058)》《[日志收集系统](https://www.cnblogs.com/beginmind/p/6058194.html)》
+   * Beats日志搬运工。安装在每台需要收集日志的服务器上，将日志发送给Logstash进行处理。[Filebeat配置安装](https://www.cnblogs.com/jingmoxukong/p/8185321.html)
+   * LogStash把没条日志解析成每个字段[LogStash配置安装](https://www.cnblogs.com/moonlightL/p/7760512.html)
+   * ElasticSearch全文搜索日志 [ElasticSearch全文搜索引擎](http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html)《[索引搜索查询及增删改查](https://www.cnblogs.com/pilihaotian/p/5830754.html)》《[ElasticSearch权威指南](https://es.xiaoleilu.com/010_Intro/00_README.html)》
+   * Kibana是ElasticSearch全文搜索图形化界面 [Kibana安装](https://www.cnblogs.com/moonlightL/p/7764919.html)
+-  《[FileBeat+kafka进行日志实时传输](https://blog.csdn.net/paicMis/article/details/78888750)》
+   * kafka[教程](https://www.w3cschool.cn/apache_kafka/apache_kafka_introduction.html)
+- logrotate日志切割
+   * [linux日志切割](https://blog.csdn.net/junli_chen/article/details/77193438)
+   * [日志切割配置]( http://blog.51cto.com/wn2100/2074048)
+
+
+
+## 2 微服务架构
+- 《[微服务架构设计](https://www.cnblogs.com/wintersun/p/6219259.html)》《[微服务架构选型](http://www.infoq.com/cn/articles/micro-service-technology-stack)》
+   * API网关，RESTFUL，微服务
+- 《[RESTFUL API架构](https://www.runoob.com/w3cnote/restful-architecture.html)》
+- 《[API网关](https://www.cnblogs.com/savorboard/p/api-gateway.html)》
+   * [kong](git地址https://github.com/Kong/kong) 
+-  项目实例
+   * TODO
+   
+## 3 RPC
+- 《[RPC概述](https://blog.csdn.net/top_code/article/details/54615853)》
+   * 远程调用程序并返回
+- 《[分布式RPC框架性能大比拼dubbo、motan、rpcx、gRPC、thrift的性能比较](https://blog.csdn.net/testcs_dn/article/details/78050590)》
+- 《[Dubbo官网](http://dubbo.apache.org/en-us/)》《[Dubbo实现原理简单介绍](https://www.cnblogs.com/steven520213/p/7606598.html)》
+- 《[Thrift官网](http://thrift.apache.org/)》《[Thrift详解](https://blog.csdn.net/kesonyk/article/details/50924489)》
+- 《[Grpc官网](https://grpc.io/)》《[RPC原理介绍](https://www.cnblogs.com/LBSer/p/4853234.html)》
+
+   
+
+
+## 4 docker
+- 《[几张图帮你理解 docker 基本原理及快速入门](https://www.cnblogs.com/SzeCheng/p/6822905.html)》
+   * 镜像，容器。一个镜像可以建立多个容器，一个容器最多127层。
+- 《[docker核心技术与实现](https://draveness.me/docker)》
+- 《[docker教程](http://www.runoob.com/docker/docker-tutorial.html)》
+-  项目实例
+   * TODO
+
+# 框架
+TODO
+
+
+# 分布式设计
+TODO
+
+
+# 大数据
+TODO
+
+
+# 搜索引擎
+TODO
+
+# 项目管理
+TODO
+
+# 资讯&技术资源
+TODO
