@@ -59,6 +59,7 @@
 
 ## 2 CPU
 - 《[操作系统学习笔记-CPU](http://blog.51cto.com/10827670/2170890)》
+- 《[操作系统之CPU调度](https://blog.csdn.net/qq_36838191/article/details/83383226)》
 
 ## 3 进程
 ## 4 线程
