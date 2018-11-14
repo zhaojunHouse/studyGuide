@@ -424,7 +424,8 @@ TODO
    * 垂直切分，水平切分，联合切分
    * 垂直切分缺点： join表分页搜索需要程序完成；事务处理复杂；
    * 水平切分缺点： 维护数据变复杂；切分无具体标准；
-   * 切分与整合带来的问题：分布式事务；跨节点join；跨节点合并分页排序；
+   * 切分与整合带来的问题：分布式事务（解决：分布式锁+应用程序）；跨节点join（全局表，冗余，数据组装）；跨节点合并分页排序（先排序分页，再数据组装）；
+- 《[分库分表常见问题](https://blog.csdn.net/dinglang_2009/article/details/53195835)》《[分库分表事务一致性](https://www.infoq.cn/article/solution-of-distributed-system-transaction-consistency)》
 
 # 大数据
 TODO
