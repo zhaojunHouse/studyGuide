@@ -47,10 +47,10 @@
 - [安全](#安全)
     - [1 堡垒机（跳板机）](#1-堡垒机跳板机) 
 - [架构&运维&统计&技术支持](#架构运维统计技术支持)
-    - [1 架构](#1-架构)  
-      &nbsp;&nbsp; [1.1  微服务架构](#11-微服务架构) 
-      &nbsp;&nbsp; [1.2  架构图](#12-架构图) 
-    - [2 日志服务](#1-日志服务)
+    - [1 架构](#1-架构) 
+      &nbsp;&nbsp; [1.1  架构师修炼图](#11-架构师修炼图) 
+      &nbsp;&nbsp; [1.2  微服务架构](#12-微服务架构)    
+    - [2 日志服务](#2-日志服务)
     - [3 RPC](#3-rpc)
     - [4 docker](#4-docker) 
 - [框架](#框架)
@@ -366,7 +366,19 @@ TODO
    
 
 # 架构&运维&统计&技术支持
-## 1 日志服务
+## 1 架构
+#### 1.1 架构师修炼图
+- 《[架构师技能修炼图](https://blog.csdn.net/hemin1003/article/details/53633926)》
+#### 1.2 微服务架构
+- 《[微服务架构设计](https://www.cnblogs.com/wintersun/p/6219259.html)》《[微服务架构选型](http://www.infoq.com/cn/articles/micro-service-technology-stack)》
+   * API网关，RESTFUL，微服务
+- 《[RESTFUL API架构](https://www.runoob.com/w3cnote/restful-architecture.html)》
+- 《[API网关](https://www.cnblogs.com/savorboard/p/api-gateway.html)》
+   * [kong](git地址https://github.com/Kong/kong) 
+-  项目实例
+   * TODO
+   
+## 2 日志服务
 - 《[ELKB日志收集系统搭建](http://cjting.me/misc/build-log-system-with-elkb/)》《[ELK日志收集系统搭建](https://blog.csdn.net/lzw_2006/article/details/51280058)》《[日志收集系统](https://www.cnblogs.com/beginmind/p/6058194.html)》
    * Beats日志搬运工。安装在每台需要收集日志的服务器上，将日志发送给Logstash进行处理。[Filebeat配置安装](https://www.cnblogs.com/jingmoxukong/p/8185321.html)
    * LogStash把没条日志解析成每个字段[LogStash配置安装](https://www.cnblogs.com/moonlightL/p/7760512.html)
@@ -380,14 +392,6 @@ TODO
 
 
 
-## 2 微服务架构
-- 《[微服务架构设计](https://www.cnblogs.com/wintersun/p/6219259.html)》《[微服务架构选型](http://www.infoq.com/cn/articles/micro-service-technology-stack)》
-   * API网关，RESTFUL，微服务
-- 《[RESTFUL API架构](https://www.runoob.com/w3cnote/restful-architecture.html)》
-- 《[API网关](https://www.cnblogs.com/savorboard/p/api-gateway.html)》
-   * [kong](git地址https://github.com/Kong/kong) 
--  项目实例
-   * TODO
    
 ## 3 RPC
 - 《[RPC概述](https://blog.csdn.net/top_code/article/details/54615853)》
