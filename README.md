@@ -450,7 +450,8 @@ TODO
 - 《[关于高可用的系统](https://coolshell.cn/articles/17459.html)》
    * 数据不丢，就必需要持久化；服务高可用，就必需要有备用；复制，就会有数据一致性
 ## 3 负载均衡
-
+- 《[软/硬件负载均衡产品 你知多少？](https://www.cnblogs.com/lcword/p/5773296.html)》《[转！！负载均衡器技术Nginx和F5的优缺点对比](https://www.cnblogs.com/wuyun-blog/p/6186198.html)》
+   * 硬件，软件负载均衡
 # 大数据
 TODO
 
