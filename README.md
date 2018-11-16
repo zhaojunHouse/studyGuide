@@ -421,6 +421,10 @@ TODO
 
 # 分布式设计
 ## 1 扩展性设计
+- 《[说说如何实现可扩展性的大型网站架构](https://blog.csdn.net/deniro_li/article/details/78458306)》
+   * 分布式+异步任务
+   * 分布式要求：负载均衡，失效转移，高效远程调用，整合异构系统，版本控制，实时监控
+   
 - 《[可扩展性设计之数据切分](https://yq.aliyun.com/articles/38119)》
    * 垂直切分，水平切分，联合切分
    * 垂直切分缺点： join表分页搜索需要程序完成；事务处理复杂；
@@ -433,9 +437,7 @@ TODO
    * 非事务MQ
    * 事务MQ
    
-- 《[说说如何实现可扩展性的大型网站架构](https://blog.csdn.net/deniro_li/article/details/78458306)》
-   * 分布式+异步任务
-   * 分布式要求：负载均衡，失效转移，高效远程调用，整合异构系统，版本控制，实时监控
+
 ## 2 稳定性&高可用
 - 《[系统设计：关于高可用系统的一些技术方案](https://blog.csdn.net/hustspy1990/article/details/78008324)》
    * 可扩展：水平扩展、垂直扩展。 通过冗余部署，避免单点故障。一主多从。
@@ -452,6 +454,8 @@ TODO
 ## 3 负载均衡
 - 《[软/硬件负载均衡产品 你知多少？](https://www.cnblogs.com/lcword/p/5773296.html)》《[转！！负载均衡器技术Nginx和F5的优缺点对比](https://www.cnblogs.com/wuyun-blog/p/6186198.html)》
    * 硬件，软件负载均衡
+- 《[负载均衡的几种算法](https://www.cnblogs.com/tianzhiliang/articles/2317808.html)》   
+   
 # 大数据
 TODO
 
