@@ -455,7 +455,7 @@ TODO
 - 《[软/硬件负载均衡产品 你知多少？](https://www.cnblogs.com/lcword/p/5773296.html)》《[转！！负载均衡器技术Nginx和F5的优缺点对比](https://www.cnblogs.com/wuyun-blog/p/6186198.html)》
    * 硬件，软件负载均衡
 - 《[负载均衡的几种算法](https://www.cnblogs.com/tianzhiliang/articles/2317808.html)》   
-   
+   * 轮流；比例；优先权；   最小连接；响应最快；服务器性能模式；观察模式 请求数响应时间；
 # 大数据
 TODO
 
