@@ -456,6 +456,8 @@ TODO
    * 硬件，软件负载均衡
 - 《[负载均衡的几种算法](https://www.cnblogs.com/tianzhiliang/articles/2317808.html)》   
    * 轮流；比例；优先权；   最小连接；响应最快；服务器性能模式；观察模式 请求数响应时间；
+- 《[DNS做负载均衡](https://coderxing.gitbooks.io/architecture-evolution/di-san-pian-ff1a-bu-luo/611-dns-fang-shi.html)》
+   * 配置简单；生效慢。
 # 大数据
 TODO
 
