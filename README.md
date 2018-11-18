@@ -57,7 +57,8 @@
 - [分布式设计](#分布式设计)
     - [1 扩展性设计](#1-扩展性设计) 
     - [2 稳定性&高可用](#2-稳定性高可用)   
-    - [3 负载均衡](#3-负载均衡) 
+    - [3 负载均衡](#3-负载均衡)  
+    - [4 限流](#4-限流) 
 - [大数据](#大数据)
 - [搜索引擎](#搜索引擎)
 - [项目管理](#项目管理)
@@ -464,6 +465,14 @@ TODO
    * 支持到OSI四层，性能较高
 - 《[HAProxy用法详解 全网最详细中文文档](http://www.ttlsa.com/linux/haproxy-study-tutorial/)》《[Haproxy+Keepalived+MySQL实现读均衡负载](http://blog.itpub.net/25704976/viewspace-1319781/)》《[rabbitmq+haproxy+keepalived实现高可用集群搭建](https://www.cnblogs.com/lylife/p/5584019.html)》
    * HAProxy性能和LVS差不多。
+
+## 4 限流
+- 《[谈谈高并发系统的限流](https://www.cnblogs.com/haoxinyue/p/6792309.html)》
+   * 计数器：通过滑动窗口计数器，控制单位时间内的请求次数，简单粗暴。
+   * 漏桶算法：固定容量的漏桶，漏桶满了就丢弃请求，比较常用。
+   * 令牌桶算法：固定容量的令牌桶，按照一定速率添加令牌，处理请求前需要拿到令牌，拿不到令牌则丢弃请求，或进入丢队列，可以通过控制添加令牌的速率，来控制整体速度。Guava 中的 RateLimiter 是令牌桶的实现。
+   * Nginx 限流：通过 limit_req 等模块限制并发连接数。
+   
 
 
 # 大数据
