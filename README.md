@@ -462,6 +462,11 @@ TODO
    * 成本低。主要适用web应用。
 - 《[借助LVS+Keepalived实现负载均衡](https://www.cnblogs.com/edisonchou/p/4281978.html)》
    * 支持到OSI四层，性能较高
+- 《[HAProxy用法详解 全网最详细中文文档](http://www.ttlsa.com/linux/haproxy-study-tutorial/)》
+   * 功能比较全面，性能和LVS差不多。
+- 《[Haproxy+Keepalived+MySQL实现读均衡负载](http://blog.itpub.net/25704976/viewspace-1319781/)》
+   * 主要负责读。
+
 
 # 大数据
 TODO
