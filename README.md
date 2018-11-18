@@ -460,6 +460,8 @@ TODO
    * 配置简单；生效慢。
 - 《[NGINX做负载均衡](https://coderxing.gitbooks.io/architecture-evolution/di-san-pian-ff1a-bu-luo/613-nginx-fu-zai-jun-heng.html)》
    * 成本低。主要适用web应用。
+- 《[借助LVS+Keepalived实现负载均衡](https://www.cnblogs.com/edisonchou/p/4281978.html)》
+   * 支持到OSI四层，性能较高
 
 # 大数据
 TODO
