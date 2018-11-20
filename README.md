@@ -60,6 +60,7 @@
            &nbsp;&nbsp; [2.1 负载均衡](#21-负载均衡)      
            &nbsp;&nbsp; [2.2 限流](#22-限流)  
            &nbsp;&nbsp; [2.3 容灾 ](#23-容灾)  
+           &nbsp;&nbsp; [2.4 平滑重启 ](#24-平滑重启)  
 - [大数据](#大数据)
 - [搜索引擎](#搜索引擎)
 - [项目管理](#项目管理)
@@ -488,6 +489,11 @@ TODO
    * 热点数据：热点数据单独存储；使用本地缓存；分成多个子key；
 
 - 《[“异地多活”多机房部署经验谈](http://dc.idcquan.com/ywgl/71559.shtml)》《[异地多活（异地双活）实践经验](https://blog.csdn.net/jeffreynicole/article/details/48135093)》《[依赖治理、灰度发布、故障演练，阿里电商故障演练系统的设计与实战经验](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650996320&idx=1&sn=0ed3be190bbee4a9277886ef88cbb2e5)》
+
+####  2.4 平滑重启
+- 《[Golang学习--平滑重启](https://www.cnblogs.com/CraryPrimitiveMan/p/8560839.html)》
+
+
 # 大数据
 TODO
 
