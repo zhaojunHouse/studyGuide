@@ -510,7 +510,12 @@ TODO
 - 《[【大型网站技术实践】初级篇：搭建MySQL主从复制经典架构](https://www.cnblogs.com/edisonchou/p/4133148.html)》《[MySQL主从复制(Master-Slave)实践](https://www.cnblogs.com/gl-developer/p/6170423.html)》
    * 一主n从；自动同步数据。
    
+- 《[Haproxy+多台MySQL从服务器(Slave) 实现负载均衡](https://blog.csdn.net/nimasike/article/details/48048341)》
 
+- 《[DRBD+Heartbeat+Mysql高可用读写分离架构](https://www.cnblogs.com/zhangsubai/p/6801764.html)》
+  
+- 《[MySQL Cluster 集群解决方案](https://coderxing.gitbooks.io/architecture-evolution/di-san-pian-ff1a-bu-luo/62-ke-kuo-zhan-de-shu-ju-ku-jia-gou/621-gao-ke-yong-mysql-de-ji-zhong-fang-an/6214-mysql-cluster-fang-an.html)》  
+  
 
 ## 4 服务治理
 ## 5 分布式一致性
