@@ -65,6 +65,7 @@
            &nbsp;&nbsp; [2.3 容灾 ](#23-容灾)  
            &nbsp;&nbsp; [2.4 平滑重启 ](#24-平滑重启)  
     - [3 数据库分区分表](#3-数据库分区分表)   
+            &nbsp;&nbsp; [3.1 读写分离](#31-读写分离)      
     - [4 服务治理](#4-服务治理)   
     - [5 分布式一致性](#5-分布式一致性)   
     - [6 分布式文件系统](#6-分布式文件系统)   
@@ -504,7 +505,13 @@ TODO
 - 《[Golang学习--平滑重启](https://www.cnblogs.com/CraryPrimitiveMan/p/8560839.html)》
 
 
-## 3 数据库分区分表
+## 3 数据库扩展
+#### 3.1 读写分离
+- 《[【大型网站技术实践】初级篇：搭建MySQL主从复制经典架构](https://www.cnblogs.com/edisonchou/p/4133148.html)》《[MySQL主从复制(Master-Slave)实践](https://www.cnblogs.com/gl-developer/p/6170423.html)》
+   * 一主n从；自动同步数据。
+   
+
+
 ## 4 服务治理
 ## 5 分布式一致性
 ## 6 分布式文件系统
