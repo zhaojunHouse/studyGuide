@@ -64,8 +64,9 @@
            &nbsp;&nbsp; [2.2 限流](#22-限流)  
            &nbsp;&nbsp; [2.3 容灾 ](#23-容灾)  
            &nbsp;&nbsp; [2.4 平滑重启 ](#24-平滑重启)  
-    - [3 数据库分区分表](#3-数据库分区分表)   
+    - [3 数据库扩展](#3-数据库扩展)   
             &nbsp;&nbsp; [3.1 读写分离](#31-读写分离)      
+            &nbsp;&nbsp; [3.2 分片模式](#32-分片模式)      
     - [4 服务治理](#4-服务治理)   
     - [5 分布式一致性](#5-分布式一致性)   
     - [6 分布式文件系统](#6-分布式文件系统)   
@@ -515,7 +516,10 @@ TODO
 - 《[DRBD+Heartbeat+Mysql高可用读写分离架构](https://www.cnblogs.com/zhangsubai/p/6801764.html)》
   
 - 《[MySQL Cluster 集群解决方案](https://coderxing.gitbooks.io/architecture-evolution/di-san-pian-ff1a-bu-luo/62-ke-kuo-zhan-de-shu-ju-ku-jia-gou/621-gao-ke-yong-mysql-de-ji-zhong-fang-an/6214-mysql-cluster-fang-an.html)》  
-  
+
+#### 3.2 分片模式
+- 《[分库分表需要考虑的问题及方案](https://www.jianshu.com/p/32b3e91aa22c)》
+- 《[mysql分表和表分区详解](https://www.2cto.com/database/201503/380348.html)》
 
 ## 4 服务治理
 ## 5 分布式一致性
