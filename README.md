@@ -561,6 +561,8 @@ TODO
 - 《[传统事务与柔性事务](https://www.jianshu.com/p/ab1a1c6b08a1)》
    
 ## 6 分布式文件系统
+- 《[分布式文件系统：原理、问题与方法(转)](https://www.cnblogs.com/rainy-shurun/p/5335747.html)》
+
 ## 7 唯一ID生成 
 ## 8 一致性HASH算法
 
