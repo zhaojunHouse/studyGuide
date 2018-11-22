@@ -68,6 +68,8 @@
             &nbsp;&nbsp; [3.1 读写分离](#31-读写分离)      
             &nbsp;&nbsp; [3.2 分片模式](#32-分片模式)      
     - [4 服务治理](#4-服务治理)   
+            &nbsp;&nbsp; [4.1 服务发现](#41-服务发现)  
+            &nbsp;&nbsp; [4.2 服务路由](#41-服务路由)  
     - [5 分布式一致性](#5-分布式一致性)   
     - [6 分布式文件系统](#6-分布式文件系统)   
     - [7 唯一ID生成](#7-唯一ID生成)  
@@ -522,6 +524,15 @@ TODO
 - 《[mysql分表和表分区详解](https://www.2cto.com/database/201503/380348.html)》
 
 ## 4 服务治理
+#### 4.1 服务发现
+- 《[永不失联！如何实现微服务架构中的服务发现](https://blog.csdn.net/jiaolongdy/article/details/51188798)》
+   * 客户端服务发现模式：客户端直接查询注册表，同时自己负责负载均衡。Eureka 采用这种方式。
+   * 服务器端服务发现模式：客户端通过负载均衡查询服务实例。
+- 《[SpringCloud服务注册中心比较:Consul vs Zookeeper vs Etcd vs Eureka](https://blog.csdn.net/u010963948/article/details/71730165)》
+- 《[基于Zookeeper的服务注册与发现](http://mobile.51cto.com/news-502394.htm)》
+
+#### 4.2 服务路由
+
 ## 5 分布式一致性
 ## 6 分布式文件系统
 ## 7 唯一ID生成 
