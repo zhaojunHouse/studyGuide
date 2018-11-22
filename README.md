@@ -73,6 +73,8 @@
     - [5 分布式一致性](#5-分布式一致性)   
             &nbsp;&nbsp; [5.1 CAP与BASE理论](#51-CAP与BASE理论)  
             &nbsp;&nbsp; [5.2 分布式锁](#52-分布式锁)  
+            &nbsp;&nbsp; [5.3 分布式一致性算法](#53-分布式一致性算法)  
+            &nbsp;&nbsp; [5.4 幂等](#54-幂等)  
     - [6 分布式文件系统](#6-分布式文件系统)   
     - [7 唯一ID生成](#7-唯一ID生成)  
     - [8 一致性HASH算法](#8-一致性HASH算法)  
@@ -450,7 +452,7 @@ TODO
    * 水平切分缺点： 维护数据变复杂；切分无具体标准；
    * 切分与整合带来的问题：分布式事务；跨节点join（全局表，冗余，数据组装）；跨节点合并分页排序（先排序分页，再数据组装）；
 #### 1.3 分布式事务一致性  
-- 《[分布式事务一致性问题](https://blog.csdn.net/dinglang_2009/article/details/53195835)》《[分库分表事务一致性](https://www.infoq.cn/article/solution-of-distributed-system-transaction-consistency)》
+- 《[分布式事务一致性问题](https://blog.csdn.net/dinglang_2009/article/details/53195835)》《[分库分表事务一致性](https://www.infoq.cn/article/solution-of-distributed-system-transaction-consistency)》《[保证分布式系统数据一致性的6种方案](https://weibo.com/ttarticle/p/show?id=2309403965965003062676)》
    * 提供回滚接口
    * 《[本地消息表](https://segmentfault.com/a/1190000012415698)》
    * 非事务MQ
@@ -553,7 +555,10 @@ TODO
    * 利用setnx
 - 《[Memcached 和 Redis 分布式锁方案](https://blog.csdn.net/albertfly/article/details/77412333)》
    * 利用 memcached 的 add（有别于set）操作，当key存在时，返回false。
-   
+#### 5.3 分布式一致性
+#### 5.4 幂等
+- 《[分布式系统---幂等性设计](https://www.cnblogs.com/wxgblogs/p/6639272.html)》
+- 《[传统事务与柔性事务](https://www.jianshu.com/p/ab1a1c6b08a1)》
    
 ## 6 分布式文件系统
 ## 7 唯一ID生成 
