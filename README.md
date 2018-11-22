@@ -564,7 +564,12 @@ TODO
 - 《[分布式文件系统：原理、问题与方法(转)](https://www.cnblogs.com/rainy-shurun/p/5335747.html)》
 
 ## 7 唯一ID生成 
+- 《[高并发分布式系统中生成全局唯一Id汇总](https://www.cnblogs.com/baiwa/p/5318432.html)》
+- 《[TDDL 在分布式下的SEQUENCE原理](https://blog.csdn.net/hdu09075340/article/details/79103851)》
+
 ## 8 一致性HASH算法
+- 《[什么是一致性Hash算法？](https://blog.csdn.net/bntX2jSQfEHy7/article/details/79549368)》
+
 
 # 大数据
 TODO
