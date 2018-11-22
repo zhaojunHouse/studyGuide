@@ -546,8 +546,15 @@ TODO
    * BASE理论的核心思想是：即使无法做到强一致性，但每个应用都可以根据自身业务特点，采用适当的方式来使系统达到最终一致性。
 
 #### 5.2 分布式锁
-
-
+- 《[分布式锁的几种实现方式~](http://www.hollischuang.com/archives/1716)》
+   * 数据库；缓存；zookeeper；
+- 《[基于Zookeeper的分布式锁](https://www.tuicool.com/articles/VZJr6fY)》
+- 《[jedisLock—redis分布式锁实现](https://www.cnblogs.com/0201zcr/p/5942748.html)》
+   * 利用setnx
+- 《[Memcached 和 Redis 分布式锁方案](https://blog.csdn.net/albertfly/article/details/77412333)》
+   * 利用 memcached 的 add（有别于set）操作，当key存在时，返回false。
+   
+   
 ## 6 分布式文件系统
 ## 7 唯一ID生成 
 ## 8 一致性HASH算法
