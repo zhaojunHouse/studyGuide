@@ -218,6 +218,9 @@ TODO
    * 合成复用原则：尽量使用合成/聚合,而不是使用继承。
 ## 2 23种设计模式
 - 《[23种设计模式](http://www.runoob.com/design-pattern/design-pattern-tutorial.html)》
+- 《[23种设计模式全解析](https://www.cnblogs.com/susanws/p/5510229.html)》
+- 《[23种设计模式类图和示例](https://github.com/ToryZhou/design-pattern)》
+
 
 
 
