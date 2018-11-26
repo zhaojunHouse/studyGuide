@@ -61,6 +61,7 @@
     - [3 RPC](#3-rpc)
     - [4 docker](#4-docker) 
     - [5 APM](#5-APM) 
+    - [6 统计分析](#6-统计分析) 
 - [架构&框架](#架构框架)    
     - [1 架构](#1-架构)         
              &nbsp;&nbsp; [1.1  架构师修炼图](#11-架构师修炼图)        
@@ -470,6 +471,13 @@ TODO
 - 《[Dapper，大规模分布式系统的跟踪系统](http://bigbully.github.io/Dapper-translation/)》
 - 《[OpenTracing官方标准-中文版](https://github.com/opentracing-contrib/opentracing-specification-zh)》
 - 《[开源 APM 技术选型与实战](https://www.infoq.cn/article/apm-Pinpoint-practice)》
+
+
+## 6 统计分析
+- 《[流量统计的基础：埋点](https://zhuanlan.zhihu.com/p/25195217)》
+- 《[APP埋点常用的统计工具、埋点目标和埋点内容](https://www.25xt.com/company/17066.html)》
+- 《[美团点评前端无痕埋点实践](https://tech.meituan.com/mt_mobile_analytics_practice.html)》
+
 
 
 
