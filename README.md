@@ -54,7 +54,9 @@
     - [5 优化工具](#5-优化工具) 
 - [安全](#安全)
     - [1 堡垒机（跳板机）](#1-堡垒机跳板机) 
-- [运维&统计&技术支持](#运维统计技术支持)        
+- [运维&统计&技术支持](#运维统计技术支持)  
+    - [1 常规监控](#1-常规监控)    
+             &nbsp;&nbsp; [1.1 命令行监控工具](#11-命令行监控工具)         
     - [2 日志服务](#2-日志服务)
     - [3 RPC](#3-rpc)
     - [4 docker](#4-docker) 
@@ -415,7 +417,18 @@ TODO
    
 
 # 运维&统计&技术支持
+## 1 常规监控
+- 《[【分享】腾讯业务系统监控的修炼之路](https://blog.csdn.net/enweitech/article/details/77849205)》
+   * 监控的方式：主动、被动、旁路(比如舆情监控)
+   * 监控类型： 基础监控、服务端监控、客户端监控、 监控、用户端监控
+   * 监控的目标：全、快、准
+   * 核心指标：请求量、成功率、耗时
+- 《[开源还是商用？十大云运维监控工具横评](https://www.oschina.net/news/67525/monitoring-tools)》
+   * Zabbix、Nagios、Ganglia、Zenoss、Open-falcon、监控宝、 360网站服务监控、阿里云监控、百度云观测、小蜜蜂网站监测等。
+- 《[监控报警系统搭建及二次开发经验](http://developer.51cto.com/art/201612/525373.htm)》
+#### 1.1 命令行监控工具
   
+
 ## 2 日志服务
 - 《[ELKB日志收集系统搭建](http://cjting.me/misc/build-log-system-with-elkb/)》《[ELK日志收集系统搭建](https://blog.csdn.net/lzw_2006/article/details/51280058)》《[日志收集系统](https://www.cnblogs.com/beginmind/p/6058194.html)》
    * Beats日志搬运工。安装在每台需要收集日志的服务器上，将日志发送给Logstash进行处理。[Filebeat配置安装](https://www.cnblogs.com/jingmoxukong/p/8185321.html)
