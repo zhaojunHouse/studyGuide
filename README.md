@@ -60,6 +60,7 @@
     - [2 日志服务](#2-日志服务)
     - [3 RPC](#3-rpc)
     - [4 docker](#4-docker) 
+    - [5 APM](#5-APM) 
 - [架构&框架](#架构框架)    
     - [1 架构](#1-架构)         
              &nbsp;&nbsp; [1.1  架构师修炼图](#11-架构师修炼图)        
@@ -463,6 +464,14 @@ TODO
 - 《[docker教程](http://www.runoob.com/docker/docker-tutorial.html)》
 -  项目实例
    * TODO
+   
+## 5 APM 
+#### application performance management
+- 《[Dapper，大规模分布式系统的跟踪系统](http://bigbully.github.io/Dapper-translation/)》
+- 《[OpenTracing官方标准-中文版](https://github.com/opentracing-contrib/opentracing-specification-zh)》
+- 《[开源 APM 技术选型与实战](https://www.infoq.cn/article/apm-Pinpoint-practice)》
+
+
 
 # 架构&框架
 ## 1 架构
