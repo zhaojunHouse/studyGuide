@@ -427,7 +427,8 @@ TODO
    * Zabbix、Nagios、Ganglia、Zenoss、Open-falcon、监控宝、 360网站服务监控、阿里云监控、百度云观测、小蜜蜂网站监测等。
 - 《[监控报警系统搭建及二次开发经验](http://developer.51cto.com/art/201612/525373.htm)》
 #### 1.1 命令行监控工具
-  
+- 《[20个命令行工具监控 Linux 系统性能](http://blog.jobbole.com/96846/)》
+- 《[命令行工具监控](https://coderxing.gitbooks.io/architecture-evolution/di-er-pian-ff1a-feng-kuang-yuan-shi-ren/44-an-quan-yu-yun-wei/445-fu-wu-qi-zhuang-tai-jian-ce/4451-ming-ling-xing-gong-ju.html)》
 
 ## 2 日志服务
 - 《[ELKB日志收集系统搭建](http://cjting.me/misc/build-log-system-with-elkb/)》《[ELK日志收集系统搭建](https://blog.csdn.net/lzw_2006/article/details/51280058)》《[日志收集系统](https://www.cnblogs.com/beginmind/p/6058194.html)》
