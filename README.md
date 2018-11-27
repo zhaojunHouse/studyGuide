@@ -66,6 +66,7 @@
     - [6 统计分析](#6-统计分析) 
     - [7 持续集成](#7-持续集成) 
     - [8 自动化运维](#8-自动化运维) 
+    - [9 灰度&蓝绿&AB](#9-灰度蓝绿AB) 
 - [架构&框架](#架构框架)    
     - [1 架构](#1-架构)         
              &nbsp;&nbsp; [1.1  架构师修炼图](#11-架构师修炼图)        
@@ -507,6 +508,11 @@ TODO
 - 《[Ansible中文权威指南](http://www.ansible.com.cn/index.html)》   
 - 《[自动化运维工具——puppet详解（一）](https://www.cnblogs.com/keerya/p/8040071.html)》 
 - 《[Chef 的安装与使用](https://www.ibm.com/developerworks/cn/cloud/library/1407_caomd_chef/)》 
+
+## 9 灰度蓝绿AB
+- 《[蓝绿部署](http://www.cnblogs.com/renzaijianghu/p/9197075.html)》 
+- 《[蓝绿部署、A/B 测试以及灰度发布](https://www.v2ex.com/t/344341)》
+- 《[技术干货 | AB 测试和灰度发布探索及实践](https://testerhome.com/topics/11165)》
 
 
 # 架构&框架
