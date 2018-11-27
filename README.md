@@ -63,6 +63,7 @@
     - [5 APM](#5-APM) 
     - [6 统计分析](#6-统计分析) 
     - [7 持续集成](#7-持续集成) 
+    - [8 自动化运维](#8-自动化运维) 
 - [架构&框架](#架构框架)    
     - [1 架构](#1-架构)         
              &nbsp;&nbsp; [1.1  架构师修炼图](#11-架构师修炼图)        
@@ -486,6 +487,12 @@ TODO
 - 《[8个流行的持续集成工具](https://www.testwo.com/article/1170)》
 - 《[使用Jenkins进行持续集成](https://www.liaoxuefeng.com/article/001463233913442cdb2d1bd1b1b42e3b0b29eb1ba736c5e000)》
 
+## 8 自动化运维
+- 《[Ansible基础配置和企业级项目实用案例](https://www.cnblogs.com/heiye123/articles/7855890.html)》
+   * 批量系统配置、批量程序部署、批量运行命令等功能
+- 《[Ansible中文权威指南](http://www.ansible.com.cn/index.html)》   
+- 《[自动化运维工具——puppet详解（一）](https://www.cnblogs.com/keerya/p/8040071.html)》 
+- 《[Chef 的安装与使用](https://www.ibm.com/developerworks/cn/cloud/library/1407_caomd_chef/)》 
 
 
 # 架构&框架
