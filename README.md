@@ -62,6 +62,7 @@
     - [4 docker](#4-docker) 
     - [5 APM](#5-APM) 
     - [6 统计分析](#6-统计分析) 
+    - [7 持续集成](#7-持续集成) 
 - [架构&框架](#架构框架)    
     - [1 架构](#1-架构)         
              &nbsp;&nbsp; [1.1  架构师修炼图](#11-架构师修炼图)        
@@ -478,6 +479,12 @@ TODO
 - 《[APP埋点常用的统计工具、埋点目标和埋点内容](https://www.25xt.com/company/17066.html)》
 - 《[美团点评前端无痕埋点实践](https://tech.meituan.com/mt_mobile_analytics_practice.html)》
 
+
+## 7 持续集成
+- 《[持续集成是什么？](http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)》
+   * 合并；交付；测试；部署；
+- 《[8个流行的持续集成工具](https://www.testwo.com/article/1170)》
+- 《[使用Jenkins进行持续集成](https://www.liaoxuefeng.com/article/001463233913442cdb2d1bd1b1b42e3b0b29eb1ba736c5e000)》
 
 
 
