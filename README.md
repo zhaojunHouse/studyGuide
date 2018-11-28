@@ -35,10 +35,7 @@
     - [4 定时调度](#4-定时调度)
     - [5 API网关](#5-api网关)
 - [数据库](#数据库)
-- [测试](#测试)
-    - [1 压力测试](#1-压力测试)    
-    - [2 测试驱动开发](#2-测试驱动开发)    
-    - [3 单元测试](#3-单元测试)    
+
 - [并发](#并发)
     - [1 并发概念](#1-并发概念)    
             &nbsp;&nbsp; [1.1  并发](#11-并发)     
@@ -69,6 +66,10 @@
     - [9 灰度&蓝绿&AB](#9-灰度蓝绿AB) 
     - [10 虚拟化](#10-虚拟化) 
     - [11 devops&openstack](#11-devopsopenstack) 
+    - [12 测试](#12-测试)   
+          &nbsp;&nbsp; [12.1 压力测试](#121-压力测试)    
+          &nbsp;&nbsp; [12.2 测试驱动开发](#122-测试驱动开发)    
+          &nbsp;&nbsp; [12.3 单元测试](#123-单元测试)    
 - [架构&框架](#架构框架)    
     - [1 架构](#1-架构)         
              &nbsp;&nbsp; [1.1  架构师修炼图](#11-架构师修炼图)        
@@ -326,32 +327,6 @@ TODO
 
 
 
-#  测试
-## 1 压力测试
-- 《[apache ab测试使用指南](https://blog.csdn.net/blueheart20/article/details/52170790)》
-   * too many open files (解决方案：ulimit -n; nginx配置events同级 worker_rlimit_nofile 15360;)
-   * apr_socket_recv:Operation timed out  (解决方法：ab加上-k 开启keepAlive)
-   * apr_socket_connect(): Operation already in progress (解决方法：apache/conf/extra/httpd-mpm.conf  修改 ThreadsPerChild)
-   * apr_socket_recv: Connection reset by peer (54)
-   * setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive
- 
- - 《[大型网站压力测试及优化方案](https://www.cnblogs.com/binyue/p/6141088.html)》
-    *  jmeter
-    * 《[全链路压测](https://www.jianshu.com/p/27060fd61f72)》
-    *  资源服务监控《[20个命令行工具监控](http://blog.jobbole.com/96846/)》
-
-## 2 测试驱动开发
-- 《[深度解读 - TDD（测试驱动开发）](https://www.jianshu.com/p/62f16cd4fef3)》
-
-
-## 3 单元测试
-- 《[单元测试](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00140137128705556022982cfd844b38d050add8565dcb9000)》
-   * 单元测试可以有效地测试某个程序模块的行为，是未来重构代码的信心保证。
-   * 单元测试的测试用例要覆盖常用的输入组合、边界条件和异常。
-   * 单元测试代码要非常简单，如果测试代码太复杂，那么测试代码本身就可能有bug。
-   * 单元测试通过了并不意味着程序就没有bug了，但是不通过程序肯定有bug。
-
-
  
 # 并发
 ## 1 并发概念
@@ -526,6 +501,36 @@ TODO
 ## 11 devops&openstack
 - 《[DevOps 详解](https://www.infoq.cn/article/detail-analysis-of-devops)》
 - 《[OpenStack构架知识梳理](https://www.cnblogs.com/klb561/p/8660264.html)》
+
+
+
+##  12 测试
+#### 12.1 压力测试
+- 《[apache ab测试使用指南](https://blog.csdn.net/blueheart20/article/details/52170790)》
+   * too many open files (解决方案：ulimit -n; nginx配置events同级 worker_rlimit_nofile 15360;)
+   * apr_socket_recv:Operation timed out  (解决方法：ab加上-k 开启keepAlive)
+   * apr_socket_connect(): Operation already in progress (解决方法：apache/conf/extra/httpd-mpm.conf  修改 ThreadsPerChild)
+   * apr_socket_recv: Connection reset by peer (54)
+   * setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive
+ 
+ - 《[大型网站压力测试及优化方案](https://www.cnblogs.com/binyue/p/6141088.html)》
+    *  jmeter
+    * 《[全链路压测](https://www.jianshu.com/p/27060fd61f72)》
+    *  资源服务监控《[20个命令行工具监控](http://blog.jobbole.com/96846/)》
+
+#### 12.2 测试驱动开发
+- 《[深度解读 - TDD（测试驱动开发）](https://www.jianshu.com/p/62f16cd4fef3)》
+
+
+####  12.3 单元测试
+- 《[单元测试](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00140137128705556022982cfd844b38d050add8565dcb9000)》
+   * 单元测试可以有效地测试某个程序模块的行为，是未来重构代码的信心保证。
+   * 单元测试的测试用例要覆盖常用的输入组合、边界条件和异常。
+   * 单元测试代码要非常简单，如果测试代码太复杂，那么测试代码本身就可能有bug。
+   * 单元测试通过了并不意味着程序就没有bug了，但是不通过程序肯定有bug。
+
+
+
 
 
 # 架构&框架
