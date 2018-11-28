@@ -67,6 +67,7 @@
     - [7 持续集成](#7-持续集成) 
     - [8 自动化运维](#8-自动化运维) 
     - [9 灰度&蓝绿&AB](#9-灰度蓝绿AB) 
+    - [10 虚拟化](#10-虚拟化) 
 - [架构&框架](#架构框架)    
     - [1 架构](#1-架构)         
              &nbsp;&nbsp; [1.1  架构师修炼图](#11-架构师修炼图)        
@@ -513,6 +514,14 @@ TODO
 - 《[蓝绿部署](http://www.cnblogs.com/renzaijianghu/p/9197075.html)》 
 - 《[蓝绿部署、A/B 测试以及灰度发布](https://www.v2ex.com/t/344341)》
 - 《[技术干货 | AB 测试和灰度发布探索及实践](https://testerhome.com/topics/11165)》
+
+## 10 虚拟化
+- 《[VPS的三种虚拟技术OpenVZ、Xen、KVM优缺点比较](https://blog.csdn.net/enweitech/article/details/52910082)》
+- 《[KVM详解，太详细太深入了，经典](http://blog.chinaunix.net/uid-20201831-id-5775661.html)》
+- 《[KVM 虚拟机安装详解](https://www.coderxing.com/kvm-install.html)》
+- 《[Xen虚拟化基本原理详解](https://www.cnblogs.com/sddai/p/5931201.html)》
+- 《[开源Linux容器 OpenVZ 快速上手指南](https://blog.csdn.net/longerzone/article/details/44829255)》
+
 
 
 # 架构&框架
