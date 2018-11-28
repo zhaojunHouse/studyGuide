@@ -304,6 +304,12 @@ web缓存
 - 《[Varnish Cache](https://github.com/varnishcache/varnish-cache)》
 - 《[squid-cache](https://github.com/squid-cache/squid)》  
 
+Memcache
+- 《[Memcached 教程](http://www.runoob.com/memcached/memcached-tutorial.html)》 
+- 《[深入理解Memcached原理](https://www.jianshu.com/p/36e5cd400580)》 
+- 《[Memcached工作原理](https://www.jianshu.com/p/36e5cd400580)》 
+- 《[Memcache技术分享：介绍、使用、存储、算法、优化、命中率](http://zhihuzeye.com/archives/2361)》 
+- 《[memcache 中 add 、 set 、replace 的区别](https://blog.csdn.net/liu251890347/article/details/37690045)》 
 
 
 
