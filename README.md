@@ -289,7 +289,15 @@ TODO
 
 ## 2 缓存
 - 《[HTTP缓存机制](https://www.cnblogs.com/chenqf/p/6386163.html)》
-   * TODO
+- 《[缓存失效策略](https://blog.csdn.net/clementad/article/details/48229243)》
+
+#### 2.1 本地缓存  
+- 《[Nginx本地缓存](https://coderxing.gitbooks.io/architecture-evolution/di-er-pian-ff1a-feng-kuang-yuan-shi-ren/42-xing-neng-zhi-ben-di-huan-cun/422-fu-wu-duan-ben-di-huan-cun/nginx-ben-di-huan-cun.html)》
+- 《[PageSpeed 自动优化网站的神器](https://coderxing.gitbooks.io/architecture-evolution/di-er-pian-ff1a-feng-kuang-yuan-shi-ren/42-xing-neng-zhi-ben-di-huan-cun/422-fu-wu-duan-ben-di-huan-cun/4222-pagespeed.html)》
+
+#### 2.2 客户端缓存 
+#### 2.3 服务端缓存 
+  
   
 ## 3 消息队列
 - 《[消息队列简介及好处](https://yq.aliyun.com/articles/606240)》
