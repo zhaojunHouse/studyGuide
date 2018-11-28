@@ -296,6 +296,8 @@ TODO
 - 《[PageSpeed 自动优化网站的神器](https://coderxing.gitbooks.io/architecture-evolution/di-er-pian-ff1a-feng-kuang-yuan-shi-ren/42-xing-neng-zhi-ben-di-huan-cun/422-fu-wu-duan-ben-di-huan-cun/4222-pagespeed.html)》
 
 #### 2.2 客户端缓存 
+- 《[H5 和移动端 WebView 缓存机制解析与实战](https://mp.weixin.qq.com/s/qHm_dJBhVbv0pJs8Crp77w)》
+
 #### 2.3 服务端缓存 
   
   
