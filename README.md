@@ -68,6 +68,7 @@
     - [8 自动化运维](#8-自动化运维) 
     - [9 灰度&蓝绿&AB](#9-灰度蓝绿AB) 
     - [10 虚拟化](#10-虚拟化) 
+    - [11 devops&openstack](#11-devopsopenstack) 
 - [架构&框架](#架构框架)    
     - [1 架构](#1-架构)         
              &nbsp;&nbsp; [1.1  架构师修炼图](#11-架构师修炼图)        
@@ -522,6 +523,9 @@ TODO
 - 《[Xen虚拟化基本原理详解](https://www.cnblogs.com/sddai/p/5931201.html)》
 - 《[开源Linux容器 OpenVZ 快速上手指南](https://blog.csdn.net/longerzone/article/details/44829255)》
 
+## 11 devops&openstack
+- 《[DevOps 详解](https://www.infoq.cn/article/detail-analysis-of-devops)》
+- 《[OpenStack构架知识梳理](https://www.cnblogs.com/klb561/p/8660264.html)》
 
 
 # 架构&框架
