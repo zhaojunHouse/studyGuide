@@ -364,7 +364,12 @@ TODO
 
   
 ## 5 API网关
-   * TODO
+请求转发、安全认证、协议转换、容灾
+- 《[API网关那些儿](http://ylzheng.com/2017/03/14/the-things-about-api-gateway/)》
+- 《[谈 API 网关的背景、架构以及落地方案](https://www.infoq.cn/article/2016%2F07%2FAPI-background-architecture-floo)》
+- 《[使用Zuul构建API Gateway](https://blog.csdn.net/zhanglh046/article/details/78651993)》
+- 《[HTTP API网关选择之一Kong介绍](https://mp.weixin.qq.com/s/LIq2CiXJQmmjBC0yvYLY5A)》
+
 
 ## 6 配置中心
 - 《[Apollo（阿波罗）是携程框架部门研发的分布式配置中心](https://github.com/ctripcorp/apollo)》
