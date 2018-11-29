@@ -40,7 +40,8 @@
             &nbsp;&nbsp; [2.3.4  Tair](#234-Tair)  
     - [3 消息队列](#3-消息队列)
     - [4 定时调度](#4-定时调度)
-    - [5 API网关](#5-api网关)
+    - [5 API网关](#5-api网关)  
+    - [6 配置中心](#6-配置中心)  
 - [数据库](#数据库)
 
 - [并发](#并发)
@@ -365,6 +366,9 @@ TODO
 ## 5 API网关
    * TODO
 
+## 6 配置中心
+- 《[Apollo（阿波罗）是携程框架部门研发的分布式配置中心](https://github.com/ctripcorp/apollo)》
+- 《[基于zookeeper实现统一配置管理理](https://blog.csdn.net/u011320740/article/details/78742625)》
 
 # 数据库
 
