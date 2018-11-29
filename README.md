@@ -357,7 +357,10 @@ TODO
    * 生产者、消费者模式完全是客户端行为，list 和 拉模式实现，阻塞等待采用 blpop 指令。
 
 ## 4 定时调度
-   * TODO
+- 《[linux定时任务cron配置](https://www.cnblogs.com/shuaiqing/p/7742382.html)》
+- 《[Linux cron运行原理](https://my.oschina.net/daquan/blog/483305)》
+- 《[这些优秀的国产分布式任务调度系统，你用过几个？](https://blog.csdn.net/qq_16216221/article/details/70314337)》
+
   
 ## 5 API网关
    * TODO
