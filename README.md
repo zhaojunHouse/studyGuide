@@ -113,7 +113,10 @@
     - [6 分布式文件系统](#6-分布式文件系统)   
     - [7 唯一ID生成](#7-唯一ID生成)  
     - [8 一致性HASH算法](#8-一致性HASH算法)  
-- [大数据](#大数据)
+- [大数据](#大数据)   
+    - [1 流式计算](#1-流式计算)   
+    - [2 Hadoop](#2-Hadoop)  
+    - [3 Spark](#3-Spark)  
 - [搜索引擎](#搜索引擎)
     - [1 搜索引擎原理](#1-搜索引擎原理)
     - [2 Lucene](#2-Lucene)   
@@ -756,7 +759,47 @@ TODO
 
 
 # 大数据
-TODO
+
+## 1 流式计算
+
+#### 1.1 Storm
+* [官方网站](http://storm.apache.org/)
+* [《最详细的Storm入门教程》](https://blog.csdn.net/uisoul/article/details/77989927)
+
+#### 1.2 Flink
+* [《Flink之一 Flink基本原理介绍》](https://blog.csdn.net/lisi1129/article/details/54844919)
+
+#### 1.3 Kafka Stream
+* [《Kafka Stream调研：一种轻量级流计算模式》](https://yq.aliyun.com/articles/58382)
+
+#### 1.4 应用场景
+
+例如：
+
+* 广告相关实时统计；
+* 推荐系统用户画像标签实时更新；
+* 线上服务健康状况实时监测；
+* 实时榜单；
+* 实时数据统计。
+
+## 2 Hadoop
+
+* [《用通俗易懂的话说下hadoop是什么,能做什么》](https://blog.csdn.net/houbin0912/article/details/72967178)
+* [《史上最详细的Hadoop环境搭建》](http://gitbook.cn/books/5954c9600326c7705af8a92a/index.html)
+
+#### 2.1 HDFS
+* [《【Hadoop学习】HDFS基本原理》](https://segmentfault.com/a/1190000011575458)
+
+#### 2.2 MapReduce
+* [《用通俗易懂的大白话讲解Map/Reduce原理》](https://blog.csdn.net/oppo62258801/article/details/72884633)
+* [《 简单的map-reduce的java例子》](https://blog.csdn.net/foye12/article/details/78358292)
+
+#### 2.3 Yarn
+* [《初步掌握Yarn的架构及原理》](http://www.cnblogs.com/codeOfLife/p/5492740.html)
+
+## 3 Spark
+* [《Spark(一): 基本架构及原理》](http://www.cnblogs.com/tgzhu/p/5818374.html)
+
 
 
 # 搜索引擎
