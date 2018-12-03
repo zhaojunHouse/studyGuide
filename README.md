@@ -71,8 +71,8 @@
 	- [2 web安全](#2-web安全)   
           &nbsp;&nbsp; [2.1  XSS](#21-XSS)         
           &nbsp;&nbsp; [2.2  CSRF](#22-CSRF)         
-          &nbsp;&nbsp; [2.3  SQL注入](#23-SQL 注入)         
-          &nbsp;&nbsp; [2.4  HashDos](#24-Hash Dos)         
+          &nbsp;&nbsp; [2.3  SQL注入](#23-SQL注入)         
+          &nbsp;&nbsp; [2.4  HashDos](#24-HashDos)         
           &nbsp;&nbsp; [2.5  脚本注入](#25-脚本注入)         
           &nbsp;&nbsp; [2.6  漏洞扫描工具](#26-漏洞扫描工具)    
           &nbsp;&nbsp; [2.7  验证码](#27-验证码)         
@@ -526,7 +526,7 @@ TODO
 
 * [《SQL注入》](https://coderxing.gitbooks.io/architecture-evolution/di-san-pian-ff1a-bu-luo/641-web-an-quan-fang-fan/6413-sql-zhu-ru.html)
 
-#### 2.4 Hash Dos
+#### 2.4 HashDos
 
 
 * [《邪恶的JAVA HASH DOS攻击》](http://www.freebuf.com/articles/web/14199.html)
@@ -552,7 +552,7 @@ TODO
 
 * [《淘宝滑动验证码研究》](https://www.cnblogs.com/xcj26/p/5242758.html)
 
-## 3 DDoS 防范
+## 3 DDoS防范
 * [《学习手册：DDoS的攻击方式及防御手段》](http://netsecurity.51cto.com/art/201601/503799.htm)
 * [《免费DDoS攻击测试工具大合集》](http://netsecurity.51cto.com/art/201406/442756.htm)
 
