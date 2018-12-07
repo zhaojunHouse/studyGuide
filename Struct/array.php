@@ -1,16 +1,15 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * @Author     : likingfit@likingfit.com
- * @CreateTime 2018/12/7 16:39:17
- */
-class MyArray {
+/**/
+
+class MyArray
+{
     private $data;
     private $capacity;
     private $length;
 
-    public function __construct($capacity) {
+    public function __construct($capacity)
+    {
         if ($capacity <= 0) {
             return null;
         }
@@ -20,7 +19,8 @@ class MyArray {
     }
 
     //判断是否为空
-    public function isEmpty() {
+    public function isEmpty()
+    {
         if ($this->length == 0) {
             return true;
         }
@@ -29,7 +29,8 @@ class MyArray {
     }
 
     //判断是否已满
-    public function checkIsFull() {
+    public function checkIsFull()
+    {
         if ($this->length == $this->capacity) {
             return true;
         }
@@ -38,8 +39,9 @@ class MyArray {
     }
 
     //判断是否越界
-    public function checkOutOfRange($index) {
-        if ($index > (($this->capacity) - 1) && $index < 0) {
+    public function checkOutOfRange($index)
+    {
+        if (($index > (($this->capacity) - 1)) || ($index < 0)) {
             return true;
         } else {
             return false;
@@ -47,26 +49,46 @@ class MyArray {
     }
 
     //插入
+
     /**
      * 最好：O（1）
      * 最坏：O（n）
      * 平均：O（n）
      */
-    public function insert($index, $data) {
+    public function insert($index, $data)
+    {
         if ($this->checkIsFull()) {
-            return 1;
+            echo "FullInsert-----Index:".$index."----data:".$data."\n";
+            return 111;
         }
 
         if ($this->checkOutOfRange($index)) {
-            return 2;
+            return 222;
         }
-//复杂度：O（n）  ，如果是无序的，可以把$index的值搬到最后一个。这样复杂度变为O（1）
-
-        var_dump($index.'---'.$data);
 
 
-        for ($i = $index; $i < $this->length ; $i++) {
-            $this->data[$i+1] = $this->data[$i];
+        $jump = FALSE;
+
+        //当index跳跃时，补齐
+        for ($i = 0;$i<=$index;$i++){
+            if(!isset($this->data[$i])){
+                $jump = true;
+                $this->length++;
+                $this->data[$i] = 0;
+            }
+        }
+
+        if($jump){
+            $this->data[$index] = $data;
+            return 0;
+        }
+
+
+
+        //复杂度：O（n）  ，如果是无序的，可以把$index的值搬到最后一个。这样复杂度变为O（1）
+        //把index后的元素往后移动一位。
+        for ($i = $this->length - 1; $i >= $index; $i--) {
+            $this->data[$i + 1] = $this->data[$i];
         }
 
         $this->data[$index] = $data;
@@ -76,14 +98,16 @@ class MyArray {
     }
 
     //删除
-    public function delete($index) {
+    public function delete($index)
+    {
         if ($this->checkOutOfRange($index)) {
-            return 2;
+            return 22;
         }
 
         for ($i = $index; $i < ($this->length - 1); $i++) {
             $this->data[$i] = $this->data[$i + 1];
         }
+
 
 
         $this->length--;
@@ -92,7 +116,8 @@ class MyArray {
     }
 
     //find
-    public function find($index) {
+    public function find($index)
+    {
         if ($this->checkOutOfRange($index)) {
             return [
                 2,
@@ -105,10 +130,11 @@ class MyArray {
     }
 
     //print
-    public function printf() {
+    public function printf()
+    {
         $format = " ";
         for ($i = 0; $i < $this->length; $i++) {
-            $dat = $this->data[$i];
+            $dat = isset($this->data[$i]) ? $this->data[$i] : 0;
             $format .= "|" . $dat;
         }
         echo "\n" . $this->length . "-------" . $format . "\n";
@@ -117,14 +143,23 @@ class MyArray {
 
 
 $myArr = new MyArray(10);
-
+$myArr->printf();
 $myArr->insert(0, 1);
-$myArr->insert(1, 2);
+$myArr->printf();
 $myArr->insert(2, 2);
-$myArr->insert(3, 6);
+$myArr->printf();
+$myArr->insert(1, 3);
+$myArr->insert(1, 13);
+$myArr->delete(1);
+$myArr->printf();
+
+
+
+$myArr->insert(3, 4);
+$myArr->printf();
 $myArr->insert(4, 5);
-$myArr->insert(5, 4);
-$myArr->insert(6, 3);
+$myArr->insert(5, 6);
+$myArr->insert(6, 7);
 
 $myArr->printf();
 
@@ -133,5 +168,8 @@ $myArr->delete(3);
 
 $myArr->printf();
 
-$myArr->insert(7, 8);
+$myArr->insert(0, 8);
+$myArr->insert(4, 9);
+$myArr->insert(8, 10);
+$myArr->insert(7, 11);
 $myArr->printf();
