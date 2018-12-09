@@ -194,6 +194,14 @@
 * 查找
 
 ## 3 链表
+* 插入删除  复杂度为O（1）
+* 查找     复杂度O（n）
+* 单链表，双向链表，循环链表
+
+
+## 4 栈
+
+## 5 队列
 
 - 队列 
   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/queue.go)
