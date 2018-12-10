@@ -166,6 +166,57 @@ class  LinkedList {
     }
 
 
+//反转链表
+    public function reverse(){
+        if ($this->head == null || $this->head->next == null){
+            return false;
+        }
+
+        $preNode  = null;
+        $curNode = $this->head->next;
+        $remainNode = null;
+
+
+        $this->head->next = null;
+
+        while($curNode != null ){
+            $remainNode = $curNode->next;
+            $curNode->next = $preNode;
+
+            $preNode = $curNode;
+            $curNode = $remainNode;
+        }
+
+
+        $this->head->next = $preNode;
+
+
+        return true;
+    }
+
+
+    //是否存在回环
+    public function existCircle(){
+        $slowNode = $this->head;
+        $fastNode = $this->head;
+
+        while($fastNode != null && $fastNode->next != null && $fastNode->next->next != null){
+            $slowNode = $slowNode->next;
+            $fastNode = $fastNode->next->next;
+            if($slowNode == $fastNode){
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+
+    //删除倒数n的节点
+    public function deleteLastkth($index){
+        
+    }
+
 }
 
 
@@ -193,6 +244,8 @@ $linkedList->insert(5);
 $linkedList->insert(9);
 $linkedList->insert(6);
 echo $linkedList->getLength()."\n";
+$linkedList->printList();
+$linkedList->reverse();
 $linkedList->printList();
 $node = $linkedList->getNodeByIndex(3);
 $linkedList->delete($node);
