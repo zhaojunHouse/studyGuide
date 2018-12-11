@@ -25,17 +25,18 @@ class stack{
             }
             switch ($arr[$i]){
                 case '+':
+
                 case '-':
+
                     $arrLen = count($operStack);
                     while ($operStack[$arrLen-1] === '*' || $operStack[$arrLen-1] === '/' || $operStack[$arrLen-1] === '-'){
-                        var_dump($operStack[$arrLen-1]);
-                        var_dump("---------");
                         $this->  compute($numStack, $operStack);
                         $arrLen--;
                     }
                     array_push($operStack, $arr[$i]);
                     break;
                 case '*':
+
                     $arrLen = count($operStack);
                     while ($operStack[$arrLen-1] === '/'){
                         $this->  compute($numStack, $operStack);
@@ -110,6 +111,5 @@ $stack = new stack();
 //    $i++;
 //}while($i<5);
 
-$stack->expression('-1+2-(1+2*3)');
+$stack->expression('14/7');
 echo PHP_EOL;
-eval('echo -1+2-(1+2*3);');
