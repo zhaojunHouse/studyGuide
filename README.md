@@ -319,6 +319,11 @@
 
 
 ## 10 散列表
+* 哈希表，键值，哈希函数，散列值
+* 哈希冲突： 链表法；开放寻址法；重复哈希；
+
+
+
 
 - 队列 
   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/queue.go)
