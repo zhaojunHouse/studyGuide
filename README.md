@@ -691,13 +691,14 @@ TODO
  * page页：头双向链表，body链表存储记录
  * 索引：B+树
 
-#### 2.3 索引原理
- * 聚族索引与非聚簇索引
- * B+树，非叶子结点不存数据，只存索引键值，叶子结点存数据。
 
 
 ## 3 索引
+#### 3.0 索引原理
 - 《[索引原理](https://www.cnblogs.com/bypp/p/7755307.html)》
+ * 聚族索引与非聚簇索引
+ * B+树，非叶子结点不存数据，只存索引键值，叶子结点存数据。
+
 
 #### 3.1 索引类型
  * 聚族索引与非聚簇索引
@@ -705,17 +706,37 @@ TODO
  * 组合索引
  * 全文索引
 
-#### 3.2 索引使用
+#### 3.2 索引使用规则
+- 《[mysql索引](https://www.cnblogs.com/chenshishuo/p/5030029.html)》
+- 《[mysql索引](https://www.cnblogs.com/bypp/p/7755307.html)》
+- 《[mysql索引](https://www.jb51.net/article/133626.htm)》
+ * 1.在经常需要搜索的列上,可以加快索引的速度
+ * 2.主键列上可以确保列的唯一性
+ * 3.在表与表的而连接条件上加上索引,可以加快连接查询的速度
+ * 4.在经常需要排序(order by),分组(group by)和的distinct 列上加索引 可以加快排序查询的时间,  (单独order by 用不了索引，索引考虑加where 或加limit)
+ * 5.在一些where 之后的 < <= > >= BETWEEN IN 以及某个情况下的like 建立字段的索引(B-TREE)
 
-#### 3.3 索引失效规则
+ * 6.like语句的 如果你对nickname字段建立了一个索引.当查询的时候的语句是 nickname lick '%ABC%' 那么这个索引讲不会起到作用.而nickname lick 'ABC%' 那么将可以用到索引
+
+ * 7.索引不会包含NULL列,如果列中包含NULL值都将不会被包含在索引中,复合索引中如果有一列含有NULL值那么这个组合索引都将失效,一般需要给默认值0或者 ' '字符串
+
+ * 8.使用短索引,如果你的一个字段是Char(32)或者int(32),在创建索引的时候指定前缀长度 比如前10个字符 (前提是多数值是唯一的..)那么短索引可以提高查询速度,并且可以减少磁盘的空间,也可以减少I/0操作.
+
+ * 9.不要在列上进行运算,这样会使得mysql索引失效,也会进行全表扫描
+
+ * 10.选择越小的数据类型越好,因为通常越小的数据类型通常在磁盘,内存,cpu,缓存中 占用的空间很少,处理起来更快
+
+
 
 
 ## 4 优化
 
 #### 4.1 explain
 - 《[explain分析SQL](https://www.cnblogs.com/butterfly100/archive/2018/01/15/8287569.html)》
- * 
+  * select_type：simple，primary，subquery，derived，union，union result
+  * type：system > const > eq_ref > ref > fulltext > ref_or_null > index_merge > unique_subquery > index_subquery > range > index > ALL
 
+#### 4.2 优化
 
 
 
