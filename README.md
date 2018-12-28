@@ -664,11 +664,59 @@ TODO
 - 《[基于zookeeper实现统一配置管理理](https://blog.csdn.net/u011320740/article/details/78742625)》
 
 # 数据库
-
+## 1 基本理论
+#### 1.1 三大范式
 - 《[三大范式五大约束](https://www.cnblogs.com/waj6511988/p/7027127.html)》
+
+#### 1.2 事物隔离级别
+- 《[事务隔离级别](https://www.cnblogs.com/huanongying/p/7021555.html)》
 - 《[数据库事务特性](https://blog.csdn.net/u012440687/article/details/52116108)》
 - 《[数据库事务隔离级别](https://blog.csdn.net/qq_33290787/article/details/51924963)》
 - 《[InnoDB幻读问题](http://blog.sina.com.cn/s/blog_499740cb0100ugs7.html)》
+
+ * 原子性，一致性，隔离性，持久性
+ * 读不提交，出现脏读
+ * 读提交，出现不可重复读
+ * 重复读，出现幻读
+ * 序列化，--
+
+
+## 2 原理
+#### 2.1 架构设计
+ * 连接层，优化/缓存层，存储引擎
+
+#### 2.2 数据存储
+ * frm文件表空间描述
+ * ibd文件索引和数据
+ * page页：头双向链表，body链表存储记录
+ * 索引：B+树
+
+#### 2.3 索引原理
+ * 聚族索引与非聚簇索引
+ * B+树，非叶子结点不存数据，只存索引键值，叶子结点存数据。
+
+
+## 3 索引
+- 《[索引原理](https://www.cnblogs.com/bypp/p/7755307.html)》
+
+#### 3.1 索引类型
+ * 聚族索引与非聚簇索引
+ * 单列索引
+ * 组合索引
+ * 全文索引
+
+#### 3.2 索引使用
+
+#### 3.3 索引失效规则
+
+
+## 4 优化
+
+#### 4.1 explain
+- 《[explain分析SQL](https://www.cnblogs.com/butterfly100/archive/2018/01/15/8287569.html)》
+ * 
+
+
 
 
 
