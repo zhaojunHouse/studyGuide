@@ -102,7 +102,19 @@
     - [5 API网关](#5-api网关)  
     - [6 配置中心](#6-配置中心)  
 - [数据库](#数据库)
-
+    - [1 基本理论](1-基本理论)      
+        &nbsp;&nbsp; [1.1 三大范式](#11-三大范式)    
+        &nbsp;&nbsp; [1.2 事物隔离级别](#12-事物隔离级别)    
+    - [2 原理](2-原理)      
+        &nbsp;&nbsp; [2.1 架构设计](#21-架构设计)    
+        &nbsp;&nbsp; [2.2 数据存储](#22-数据存储)    
+    - [3 索引](3-索引)      
+        &nbsp;&nbsp; [3.0 索引原理](#30-索引原理)    
+        &nbsp;&nbsp; [3.1 索引类型](#31-索引类型)   
+        &nbsp;&nbsp; [3.2 索引原则](#32-索引原则)    
+        &nbsp;&nbsp; [3.3 索引失效](#33-索引失效)    
+        &nbsp;&nbsp; [3.4 explain](#34-explain)    
+        
 - [并发](#并发)
     - [1 并发概念](#1-并发概念)    
             &nbsp;&nbsp; [1.1  并发](#11-并发)     
@@ -703,13 +715,12 @@ TODO
 #### 3.1 索引类型
  * 聚族索引与非聚簇索引
  * 单列索引
- * 组合索引
+ * 索引覆盖
+ * 组合索引，索引合并
  * 全文索引
 
-#### 3.2 索引使用规则
-- 《[mysql索引](https://www.cnblogs.com/chenshishuo/p/5030029.html)》
-- 《[mysql索引](https://www.cnblogs.com/bypp/p/7755307.html)》
-- 《[mysql索引](https://www.jb51.net/article/133626.htm)》
+#### 3.2 索引原则
+- 《[mysql索引](https://www.cnblogs.com/chenshishuo/p/5030029.html)》《[mysql索引](https://www.cnblogs.com/bypp/p/7755307.html)》《[mysql索引](https://www.jb51.net/article/133626.htm)》
  * 1.在经常需要搜索的列上,可以加快索引的速度
  * 2.主键列上可以确保列的唯一性
  * 3.在表与表的而连接条件上加上索引,可以加快连接查询的速度
@@ -725,18 +736,22 @@ TODO
  * 9.不要在列上进行运算,这样会使得mysql索引失效,也会进行全表扫描
 
  * 10.选择越小的数据类型越好,因为通常越小的数据类型通常在磁盘,内存,cpu,缓存中 占用的空间很少,处理起来更快
+ * 尽量选择区分度高的列作索引
 
 
+#### 3.3 索引失效
+* 索引列 like "%xx"
+* 使用函数计算
+* or 有没有索引的列
+* 类型不一致
+* order by 查询的列不是主键排序就不走索引
 
 
-## 4 优化
-
-#### 4.1 explain
+#### 3.4 explain
 - 《[explain分析SQL](https://www.cnblogs.com/butterfly100/archive/2018/01/15/8287569.html)》
   * select_type：simple，primary，subquery，derived，union，union result
   * type：system > const > eq_ref > ref > fulltext > ref_or_null > index_merge > unique_subquery > index_subquery > range > index > ALL
 
-#### 4.2 优化
 
 
 
