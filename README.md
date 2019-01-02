@@ -218,7 +218,8 @@
     - [3 Elasticsearch](#3-Elasticsearch)   
     - [4 Solr](#4-Solr)   
     - [5 sphinx](#5-sphinx)   
- 
+- [golang](#golang) 
+- [NSQ](#NSQ) 
 - [项目管理](#项目管理)
 - [资讯&技术资源](#资讯技术资源)  
     - [1 行业资讯](#1-行业资讯)
@@ -1305,6 +1306,11 @@ TODO
 ## 5 sphinx 
 * [《Sphinx 的介绍和原理探索》](http://blog.jobbole.com/101672/)
 
+# golang
+TODO
+
+# NSQ
+TODO
 
 # 项目管理
 TODO
