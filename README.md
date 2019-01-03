@@ -5,7 +5,6 @@
        &nbsp;&nbsp; [1.2  时间复杂度量级](#12-时间复杂度量级)   
        &nbsp;&nbsp; [1.3  空间复杂度](#13-空间复杂度)   
        &nbsp;&nbsp; [1.4  最好最坏平均均摊时间复杂度](#14-最好最坏平均均摊时间复杂度) 
-  
     - [2 数组](#2-数组)  
       &nbsp;&nbsp; [2.1  定义](#21-定义)   
       &nbsp;&nbsp; [2.2  插入删除](#22-插入删除)   
@@ -96,8 +95,7 @@
             &nbsp;&nbsp; [3.3 RocketMQ](#33-RocketMQ)    
             &nbsp;&nbsp; [3.4 ActiveMQ](#34-ActiveMQ)    
             &nbsp;&nbsp; [3.5 Kafka](#35-Kafka)    
-            &nbsp;&nbsp; [3.6 Redis](#36-Redis)    
-       
+            &nbsp;&nbsp; [3.6 Redis](#36-Redis)           
     - [4 定时调度](#4-定时调度)
     - [5 API网关](#5-api网关)  
     - [6 配置中心](#6-配置中心)  
@@ -113,8 +111,7 @@
         &nbsp;&nbsp; [3.1 索引类型](#31-索引类型)   
         &nbsp;&nbsp; [3.2 索引原则](#32-索引原则)    
         &nbsp;&nbsp; [3.3 索引失效](#33-索引失效)    
-        &nbsp;&nbsp; [3.4 explain](#34-explain)    
-        
+        &nbsp;&nbsp; [3.4 explain](#34-explain)            
 - [并发](#并发)
     - [1 并发概念](#1-并发概念)    
             &nbsp;&nbsp; [1.1  并发](#11-并发)     
@@ -140,7 +137,6 @@
           &nbsp;&nbsp; [2.5  脚本注入](#25-脚本注入)         
           &nbsp;&nbsp; [2.6  漏洞扫描工具](#26-漏洞扫描工具)    
           &nbsp;&nbsp; [2.7  验证码](#27-验证码)         
-		
 	- [3 DDoS 防范](#3-ddos防范)
 	- [4 用户隐私信息保护](#4-用户隐私信息保护)
 	- [5 序列化漏洞](#5-序列化漏洞)
@@ -154,13 +150,11 @@
 	- [9 网络隔离](#9-网络隔离)    
         &nbsp;&nbsp; [9.1  内外网分离](#91-内外网分离)        
         &nbsp;&nbsp; [9.2  登录跳板机](#92-登录跳板机)        
-		
 	- [10 授权、认证](#10-授权认证)   
         &nbsp;&nbsp; [10.1  RBAC](#101-RBAC)        
         &nbsp;&nbsp; [10.2  OAuth2.0](#102-OAuth2.0)        
         &nbsp;&nbsp; [10.3  双因素认证](#103-双因素认证)        
         &nbsp;&nbsp; [10.4  单点登录](#104-单点登录)        
-		
 - [运维&统计&技术支持](#运维统计技术支持)  
     - [1 常规监控](#1-常规监控)    
              &nbsp;&nbsp; [1.1 命令行监控工具](#11-命令行监控工具)         
@@ -220,6 +214,7 @@
     - [5 sphinx](#5-sphinx)   
 - [golang](#golang) 
 - [NSQ](#NSQ) 
+- [YII](#YII)
 - [项目管理](#项目管理)
 - [资讯&技术资源](#资讯技术资源)  
     - [1 行业资讯](#1-行业资讯)
@@ -228,9 +223,8 @@
 <!-- /TOC -->
 # 数据结构&算法
 * 建立时间复杂度、空间复杂度意识，写出高质量的代码
-
 * 性能更优，核心竞争力
-
+* [数据结构算法导图](https://static001.geekbang.org/resource/image/91/a7/913e0ababe43a2d57267df5c5f0832a7.jpg)
 
 ## 1 复杂度分析
 #### 1.1 时间复杂度
@@ -410,8 +404,6 @@
 
 ## 14 算法
 
-
-
 - 队列 
   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/queue.go)
 - 链表 
@@ -429,10 +421,6 @@
 - 树
 - 图
 - 堆
-
-
-![avatar](https://static001.geekbang.org/resource/image/91/a7/913e0ababe43a2d57267df5c5f0832a7.jpg)
-
 
 # 操作系统
 ## 1 计算机原理
@@ -1312,6 +1300,9 @@ TODO
 # NSQ
 TODO
 
+# YII
+
+
 # 项目管理
 TODO
 
@@ -1322,3 +1313,4 @@ TODO
 ## 2 博客
 - 《[阿里中间件团队](http://jm.taobao.org/)》
 - 《[美团技术团队](https://tech.meituan.com/)》
+
