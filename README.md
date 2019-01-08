@@ -1295,7 +1295,33 @@ TODO
 * [《Sphinx 的介绍和原理探索》](http://blog.jobbole.com/101672/)
 
 # golang
-TODO
+## 1 基本概念
+#### 1.1 GOPATH和工作区
+- 《[GO环境安装及目录](https://www.jianshu.com/p/8a87eeec15f2)》《[Go语言之讲解GOROOT、GOPATH、GOBIN](https://www.cnblogs.com/pyyu/p/8032257.html)》
+ * GOROOT,GOPATH,GOBIN
+ * src,bin,pkg
+ * go build; go install ; go get;
+
+#### 1.2 命令源码文件
+ * 如果一个源码文件声明属于main包，并且包含一个无参数声明且无结果声明的main函数，那么它就是命令源码文件
+
+#### 1.3 库源码文件
+ * 库源码文件是不能被直接运行的源码文件，它仅用于存放程序实体，这些程序实体可以被其他代码使用
+ * internal
+ * 函数导出，访问权限
+
+#### 1.4 变量声明
+ * var s string
+ * s := "name"
+ * 短变量声明
+ 
+#### 1.5 作用域
+ * 包级私有的、模块级私有的和公开的
+
+## 2 数组切片
+ * 在无需扩容时，append函数返回的是指向原底层数组的新切片,而在需要扩容时，append函数返回的是指向新底层数组的新切片。
+ * slice扩容 2倍，1.25倍。
+ * 底层数组不会被替换，直接生产新的数组
 
 # NSQ
 TODO
