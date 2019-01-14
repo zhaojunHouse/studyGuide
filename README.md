@@ -1332,10 +1332,11 @@ TODO
 ## 5 channel
 
 #### 5.0 注意点
- * 通道阻塞
+ * 通道不能一直阻塞
  * goroutine执行完再退出
  * goroutine泄漏
  * channel关闭
+ * goroutine不能打开太多，应该有限制
 
 #### 5.1 通道规则
  * 对于同一个通道，发送操作之间是互斥的，接收操作之间也是互斥的
@@ -1362,7 +1363,7 @@ TODO
 #### 5.5 缓存通道
  * 内部缓存队列是满的，那么发送操作将阻塞直到因另一个goroutine执行接收操作
  * channel是空的，接收操作将阻塞直到有另一个goroutine执行发送操作而向队列插入元素。
- * 可以保证go程执行完再退出
+ * 可以保证go程执行完再退出（？？）
 
 
 
@@ -1371,6 +1372,15 @@ TODO
  * wg.wait为什么要在go func(){}中
  * for range channel当channel关闭且流干的时候才退出循环
 
+#### 5.7 select
+ * 同时都满足条件，会随机选择一个执行。是不是有bug
+ * Loop goto  break
+
+#### 5.8 并发的退出
+ * 通过close广播，select去接收。 
+ 
+ 
+ 
 # NSQ
 TODO
 
