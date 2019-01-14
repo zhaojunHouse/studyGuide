@@ -1380,6 +1380,14 @@ TODO
  * 通过close广播，select去接收。 
  
  
+## 6 并发
+ * 数据竞争会在两个以上的goroutine并发访问相同的变量且至少其中一个为写操作时发生。
+ * sync.Mutex互斥锁
+ * sync.RMutex读写锁
+ * 将变量限定在goroutine内部；如果是多个goroutine都需要访问的变量，使用互斥条件来访问。
+ * 内存同步
+ * -race
+ 
  
 # NSQ
 TODO
