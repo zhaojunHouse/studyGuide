@@ -1401,8 +1401,8 @@ TODO
  * 保证loadIcons的变量能够对所有goroutine可见
 
 #### 6.6 并发的非阻塞缓存
- * 
- 
+ * close(ch)会广播到每个goroutine
+ * 两种方式：加锁；channel ；
  
 # NSQ
 TODO
