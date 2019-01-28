@@ -474,24 +474,16 @@
 
 
 ## 14 算法
+#### 14.1 BF算法（暴力匹配算法）
+#### 14.2 RK算法 （发明者名字命名）
+ * 把模式串和主串 hash，再比较hash值。
+ * 每个小串计算hash时不用遍历，有关系表达式。
 
-- 队列 
-  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/queue.go)
-- 链表 
-  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/node.go)
-- 集合 
-  * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/set.go)
-- 数组
-- 关联数组
-- 字典
-- 哈希表
-   * [定义](https://blog.csdn.net/duan19920101/article/details/51579136/)
-   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/hash.go)
-- 栈
-   * [实现](https://github.com/zhaojunHouse/studyGuide/blob/master/stack.go)
-- 树
-- 图
-- 堆
+#### 14.3 BM算法 （字符串匹配向后滑动）
+ * 坏字符原则
+ * 好后缀原则
+#### 14.4 KMP算法 （发明者名字命名）
+
 
 # 操作系统
 ## 1 计算机原理
