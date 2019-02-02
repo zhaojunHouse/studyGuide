@@ -582,6 +582,12 @@
 ## 6 Linux
 - 《[Linux 命令大全](http://www.runoob.com/linux/linux-command-manual.html)》
 
+## 7 并发
+#### 7.1 并发的原理
+* 多进程，多线程
+#### 7.2 竞争条件
+#### 7.3 进程的交互
+#### 7.4 互斥
    
 # 网络
 ## 1 网络协议
