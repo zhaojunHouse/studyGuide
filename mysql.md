@@ -20,8 +20,10 @@
    
 ### 主从复制
     ```python
-    slaveof host port
-    slaveof no one
-    master_repl_offset 相同说明同步完成
+      slaveof host port
+      slaveof no one
+      master_repl_offset // 相同说明同步完成
    ```
+   
+   
    
