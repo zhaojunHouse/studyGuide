@@ -1,5 +1,8 @@
 # nginx配置
-
+ * [nginx配置模块](https://blog.csdn.net/tan_zheng/article/details/83509071)
+ 
+ 
+## main模块
 ### `user`
  * 主要是指定执行nginx的worker process的用户及组，linux里所有程序都是文件，都具有权限问题，这个指定的用户对特定的文件有没有权限访问或执行，就是这个用户的意义。
  * [用户及组/etc/group](https://www.cnblogs.com/peida/archive/2012/12/05/2802419.html)
