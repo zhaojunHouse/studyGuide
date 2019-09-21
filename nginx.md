@@ -230,10 +230,52 @@
 
 
 
-### upstream模块
+### `upstream`
  * [upstream](http://nginx.org/en/docs/http/ngx_http_upstream_module.html#example)
 
-### server模块
+### `server`
+ * `$request_filename`当前连接请求的文件路径，由root或alias指令与URI请求生成。
+ * [`rewrite`](https://www.cnblogs.com/brianzhu/p/8624703.html)
+ * [`$1 $2`](https://blog.csdn.net/yxl0011/article/details/72818409)
+
+#
+
+	server{
+	    listen 8089;
+	    access_log /data/logs/nginx/access.entry.innotechx.cn.log;
+	    error_log /data/logs/nginx/error.entry.innotechx.cn.log;
+	    root /opt/case/entry_api/app/public;
+	
+		  #  location / {
+		  #     set $a  0;
+		 #      if ($server_protocol = HTTP/1.0) {
+		 #         set $a "${a}1";
+		 #      }
+		 #      if ($request_method = HEAD) {
+		 #         set $a "${a}2";
+		 #      }
+		 #      if ($a = "012") {
+		 #        access_log off;
+		 #        return 200;
+		  #     }
+		  #  }
+	
+	    location ^~ /upload/ {
+	          alias /opt/case/entry_manage/entry_api/app/public/upload/;
+	    }
+	    if (!-f $request_filename) {
+	             rewrite ^/(.+)$ /index.php?/$1 last;
+	    }
+	
+	    location ~ \.php$ {
+	       fastcgi_pass 127.0.0.1:9000;
+	       fastcgi_index   index.php;
+	       fastcgi_param   SCRIPT_FILENAME $document_root$fastcgi_script_name;
+	       include fastcgi_params;
+		   }
+
+	}
+     
 
 ### `location`
  
@@ -248,6 +290,9 @@
  *  [location执行顺序](https://linux.cn/article-5690-rss.html)
  * [location](https://www.jianshu.com/p/5b4067f9fbcc)
 
+
+### `fastcgi_script_name`
+ * [`fastcgi_script_name`](https://serverfault.com/questions/465607/nginx-document-rootfastcgi-script-name-vs-request-filename/496031)
 
 
 
